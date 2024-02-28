@@ -20,6 +20,8 @@ import newbg from "../src/assets/newbg.mp4"
 import new_bg1 from "../src/assets/new_bg1.mp4";
 // import new_bg2 from "../src/assets/new_bg2.mkv"
 import Team from "./components/Team/Team.jsx";
+import ContactUS from "./components/Contact US/ContactUS.jsx";
+
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -46,10 +48,10 @@ const App = () => {
       <HeroCard />
       <Rapidscat />
       <Satelite /> */}
-      {/* <Sponsors/> */}
+      <Sponsors/>
       {/* <Footer5 /> */}
       {/* <Footer /> */}
-      <Team/>
+      {/* <ContactUS className= "m-3 p-3"/> */}
       </div>
     </div>
   );
