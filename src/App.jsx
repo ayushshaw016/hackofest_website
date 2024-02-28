@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import HeroCard from "./components/HeroCard/HeroCard.jsx";
-import BgVideo from "./assets/earth-bg.mp4";
+// import BgVideo from "./assets/earth-bg.mp4";
 import bgVideo from "./assets/newbg.mp4";
 
 import wave from "./assets/wave Gif.gif";
@@ -18,6 +18,7 @@ import Sponsors from "./components/Sponsors/Sponsors.jsx";
 import { Route, Routes } from "react-router-dom";
 import newbg from "../src/assets/newbg.mp4"
 import new_bg1 from "../src/assets/new_bg1.mp4";
+// import new_bg2 from "../src/assets/new_bg2.mkv"
 import Team from "./components/Team/Team.jsx";
 const App = () => {
   React.useEffect(() => {
@@ -35,12 +36,13 @@ const App = () => {
           muted
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
         >
-          <source src={newbg} type="video/mp4" className="opacity-10"/>
+          <source src={bgVideo} type="video/mp4" className="opacity-10"/>
         </video>
         <Navbar />
         {/* <AboutUS/> */}
       {/* <Rules/> */}
-      {/* <Hero/>
+      {/*   yeh charo component jo hai wo ek sasth render hone chahiye as a main page in the sam serial
+      <Hero/>
       <HeroCard />
       <Rapidscat />
       <Satelite /> */}

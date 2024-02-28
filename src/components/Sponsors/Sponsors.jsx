@@ -9,28 +9,28 @@ const Sponsors = () => {
           <br/>
           <h2 className="text-5xl text-center">Title Sponsor</h2>
           <br/>
-          <div className="justify-around flex">
-          <div className="flex-row mx-2">
+          <div className="justify-around flex flex-col md:flex-row">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto"/>
           </div>
-          <div className="flex-row mx-2">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto"/>
           </div>
           </div>
 
           <h2 className="text-5xl text-center">Associate Sponsor</h2>
           <br/>
-          <div className="justify-around flex">
-          <div className="flex-row mx-2">
+          <div className="justify-around flex flex-col md:flex-row">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto "/>
           </div>
-          <div className="flex-row mx-2">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto "/>
           </div>
-          <div className="flex-row mx-2">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto "/>
           </div>
-          <div className="flex-row mx-2">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto "/>
           </div>
           
@@ -38,22 +38,22 @@ const Sponsors = () => {
 
           <h2 className="text-5xl text-center">Subevent Sponsor</h2>
           <br/>
-          <div className="justify-around flex">
-          <div className="flex-row mx-2">
+          <div className="justify-around flex flex-col md:flex-row" >
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto"/>
           </div>
-          <div className="flex-row mx-2">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto"/>
           </div>
-          <div className="flex-row mx-2">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto"/>
           </div>
           </div>
 
           <h2 className="text-5xl text-center">Certificate Sponsor</h2>
           <br/>
-          <div className="justify-around flex">
-          <div className="flex-row">
+          <div className="justify-around flex flex-col md:flex-row">
+          <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto"/>
           </div>
           </div>

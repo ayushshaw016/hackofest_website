@@ -32,6 +32,9 @@ const Navbar = () => {
                   <a href="#">Sponsors</a>
                 </li>
                 <li className="hover:text-violet-600 hover:bg-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
+                  <a href="#">Team</a>
+                </li>
+                <li className="hover:text-violet-600 hover:bg-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
                   <a href="#">Contact US</a>
                 </li>
               </ul>
