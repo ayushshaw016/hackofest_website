@@ -16,7 +16,9 @@ import AboutUS from "./components/AboutUS/About.jsx";
 import Rules from "./components/Rules/Rules.jsx";
 import Sponsors from "./components/Sponsors/Sponsors.jsx";
 import { Route, Routes } from "react-router-dom";
-
+import newbg from "../src/assets/newbg.mp4"
+import new_bg1 from "../src/assets/new_bg1.mp4";
+import Team from "./components/Team/Team.jsx";
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -33,14 +35,19 @@ const App = () => {
           muted
           className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
         >
-          <source src={bgVideo} type="video/mp4" className="opacity-10"/>
+          <source src={newbg} type="video/mp4" className="opacity-10"/>
         </video>
         <Navbar />
         {/* <AboutUS/> */}
-      <Rules/>
+      {/* <Rules/> */}
+      {/* <Hero/>
+      <HeroCard />
+      <Rapidscat />
+      <Satelite /> */}
       {/* <Sponsors/> */}
       {/* <Footer5 /> */}
       {/* <Footer /> */}
+      <Team/>
       </div>
     </div>
   );

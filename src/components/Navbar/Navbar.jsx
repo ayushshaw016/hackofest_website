@@ -36,12 +36,12 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <button className=" text-white border-2 border-white bg-violet-950 rounded-full
-              font-bold text-2xl mt-2">
-                {/*  bg-violet-900 */}
-<img src={discord} className="w-14 h-14 rounded-full"/>
-              </button>
+            <div className=" text-white bg-violet-950 rounded-full
+              font-bold text-2xl">
+              <a href="https://discord.com/channels/1205861084108554250/1205861085337620532"  target="_blank">
+
+<img src={discord} className="w-20 h-12 rounded-full"/>
+              </a>
             </div>
           </div>
         </div>
