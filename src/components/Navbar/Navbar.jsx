@@ -39,11 +39,10 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className=" text-white bg-violet-950 rounded-full
-              font-bold text-2xl">
+            <div className="float-right">
               <a href="https://discord.com/channels/1205861084108554250/1205861085337620532"  target="_blank">
 
-<img src={discord} className="w-20 h-12 rounded-full"/>
+<img src={discord} className="w-20 h-12 rounded-full "/>
               </a>
             </div>
           </div>

@@ -36,7 +36,7 @@ const App = () => {
           autoPlay
           loop
           muted
-          className="fixed right-0 top-0 h-[700px] w-full object-cover z-[-1]"
+          className="fixed right-0 top-0 h-screen w-full object-cover z-[-1]"
         >
           <source src={bgVideo} type="video/mp4" className="opacity-10"/>
         </video>
@@ -48,9 +48,10 @@ const App = () => {
       <HeroCard />
       <Rapidscat />
       <Satelite /> */}
-      <Sponsors/>
+      {/* <Sponsors/> */}
       {/* <Footer5 /> */}
-      {/* <Footer /> */}
+      <Team/>
+      <Footer />
       {/* <ContactUS className= "m-3 p-3"/> */}
       </div>
     </div>

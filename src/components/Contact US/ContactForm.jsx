@@ -11,7 +11,7 @@ function ContactForm() {
 					}}
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
-					<p className="font-general-medium text-white dark:text-primary-light text-2xl mb-8">
+					<p className="font-general-medium text-white dark:text-primary-light text-3xl mb-8 font-bold">
 						Contact Form
 					</p>
 
