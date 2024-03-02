@@ -4,6 +4,8 @@ import dummyTeamData from './data';
 
 const TeamsPage = () => {
     return (
+        <>
+        <h2 className='mt-24 text-white font-bold text-4xl font-serif font text-center underline'>LEADS</h2>
         <div className="team-container mt-10 flex flex-col lg:flex-row items-center" style={{ display: 'flex', flexWrap: 'wrap' }}>
             {dummyTeamData.map((member, index) => (
                 <div
@@ -19,6 +21,7 @@ const TeamsPage = () => {
                 </div>
             ))}
         </div>
+        </>
     );
 };
 

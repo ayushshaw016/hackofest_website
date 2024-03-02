@@ -3,20 +3,20 @@ import { FaTwitter, FaGithub, FaInstagram, FaLinkedinIn, FaDiscord } from 'react
 
 const TeamCard = ({ member }) => {
     return (
-        <div data-aos="zoom-in" className='border w-[18.5rem] border-gray-800 bg-[#2524246c] hover:bg-[#f4d7d7] p-5 rounded-3xl transition-all delay-[30ms] ease-in-out hover:border-gray-700 hover:scale-[101%] border-b-4 border-b-sky-700 hover:border-b-sky-500 mt-6 md:ml-12 -ml-16 mr-4' id="Team_main_1">
-            <div className='flex items-center justify-center my-3'>
+        <div data-aos="zoom-in" className='border w-[18.5rem] border-gray-800 bg-[#2524246c] hover:bg-[#434075] p-5 rounded-3xl transition-all delay-[15ms] ease-in-out hover:border-gray-700 hover:scale-[101%] border-b-4 border-b-sky-700 hover:border-b-sky-500 mt-6 md:ml-12 -ml-16 mr-4' id="Team_main_1">
+            <div className='flex items-center justify-center my-3 '>
                 <div>
-                    <img className='rounded-full h-[7rem] w-[7rem]  border-2 border-[#121212] border-y-sky-500 border-r-sky-500 p-1 hover:scale-[105%] transition-all delay-75 ease-in' id='Team_img' src={member.image} alt={member.image} />
+                    <img className='rounded-full h-[7rem] w-[7rem]  border-2 border-[#121212] border-y-sky-500 border-r-sky-500 p-1 hover:scale-[150%] transition-all delay-75 ease-in' id='Team_img' src={member.image} alt={member.image} />
                 </div>
             </div>
 
-            <div className='text-xl'>
+            <div className='text-xl text-white hover:text-black'>
                 {member.name}
             </div>
             <div className='text-sky-500 font-medium text-lg'>
                 {member.role}
             </div>
-            <div className='text-gray-400 my-3 text-sm'>
+            <div className=' my-3 text-sm text-white hover:text-black'>
                 {member.about}
             </div>
             <div className='py-3'>
