@@ -32,7 +32,7 @@ const ServiceData = [
 const HeroCard = () => {
   return (
     <>
-      <section className="bg-primary">
+      <section className="bg-primary mt-1">
         <div className="container">
           <div className="min-h-[400px]">
             <div>

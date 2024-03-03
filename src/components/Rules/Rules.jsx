@@ -40,7 +40,7 @@ engage in the hackathon exclusively through online participation
 standardized criteria for their hackathon projects</li>
     <br/>
     <li className="ml-2 list-disc">Each member of a team must join the HackO’Fest 
-    <a className="underline text-[#cb5bcb] font-bold" href="https://discord.com/channels/1205861084108554250/1205861085337620532">&nbsp;Discord&nbsp;</a>
+    <a className="underline text-[#cb5bcb] font-bold" href="https://discord.gg/QmNc3R6Z">&nbsp;Discord&nbsp;</a>
      Server before
 the hackathon startsd Also, every member must change their server
 nickname to their official named</li>

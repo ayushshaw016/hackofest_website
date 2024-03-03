@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="h-full flex justify-center items-center p-4">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="text-white space-y-4 lg:pr-36">
-            <h1 data-aos="fade-up" className="text-6xl font-bold font-mono
+            <h1 data-aos="fade-up" className="text-6xl font-bold font-serif
             ">
               HackO'Fest
             </h1>

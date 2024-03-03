@@ -40,7 +40,7 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="float-right">
-              <a href="https://discord.com/channels/1205861084108554250/1205861085337620532"  target="_blank">
+              <a href="https://discord.gg/QmNc3R6Z"  target="_blank">
 
 <img src={discord} className="w-20 h-12 rounded-full "/>
               </a>

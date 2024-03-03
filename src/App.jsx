@@ -42,15 +42,15 @@ const App = () => {
         </video>
         <Navbar />
         {/* <AboutUS/> */}
-      <Rules/>/
-      {/*   yeh charo component jo hai wo ek sasth render hone chahiye as a main page in the sam serial
-      <Hero/>
+      {/* <Rules/>/ */}
+        {/* yeh charo component jo hai wo ek sasth render hone chahiye as a main page in the sam serial */}
+      {/* <Hero/>
       <HeroCard />
       <Rapidscat />
       <Satelite /> */}
       {/* <Sponsors/> */}
       {/* <Footer5 /> */}
-      {/* <Team/> */}
+      <Team/>
       {/* <ContactUS className= "m-3 p-3"/> */}
       <Footer />
       </div>

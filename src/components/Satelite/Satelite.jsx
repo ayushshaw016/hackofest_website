@@ -4,7 +4,7 @@ import satelitImg from "../../assets/satelite2.jpg";
 const Rapidscat = () => {
   return (
     <>
-      <section className="bg-primary text-white py-20">
+      <section className="bg-primary text-white py-20 -mb-10">
         <div className="container ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             <div className="space-y-3 xl:pr-36 p-4 border-l-2 border-b-2 border-l-sky-800 border-b-sky-800 ">
