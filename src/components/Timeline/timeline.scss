@@ -29,8 +29,9 @@ $brand-color: #7e0eee;
   .container {
     position: absolute;
     overflow-x: scroll;
-
+    // overflow-y: scroll;
     ol {
+
       @include respond-to(xs) {
         &:before {
           background: $brand-color-g;

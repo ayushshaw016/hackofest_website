@@ -20,6 +20,7 @@ import Harshvardhandansena from "../../assets/teamsprofile/HARSHVARDHAN DANSENA.
 import Kirtanpatidar from "../../assets/teamsprofile/Kirtan patidar.png";
 import Kushagra from "../../assets/teamsprofile/KUSHAGRA.jpg";
 import Mahtabalam from "../../assets/teamsprofile/MAHTAB ALAM.jpg";
+import Mayank from "../../assets/teamsprofile/MAYANK.jpg"
 import Mitalidwivedi from "../../assets/teamsprofile/MITALI DWIVEDI.jpg";
 import Monukumar from "../../assets/teamsprofile/MONU KUMAR.jpg";
 import Munquabanwer from "../../assets/teamsprofile/MUNQUAB ANWER.jpg";
@@ -64,6 +65,7 @@ export {
   Kirtanpatidar,
   Kushagra,
   Mahtabalam,
+  Mayank,
   Mitalidwivedi,
   Monukumar,
   Munquabanwer,

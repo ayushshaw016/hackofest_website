@@ -22,6 +22,7 @@ import new_bg1 from "../src/assets/new_bg1.mp4";
 import Team from "./components/Team/Team.jsx";
 import ContactUS from "./components/Contact US/ContactUS.jsx";
 import Timeline from "../src/components/Timeline/Timeline.jsx";
+import Prizes from "./components/Prizes/Prizes.jsx";
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -50,7 +51,8 @@ const App = () => {
       <Satelite /> */}
         {/* <Sponsors/> */}
         {/* <Footer5 /> */}
-        <Team />
+        {/* <Team /> */}
+        <Prizes/>
         {/* <Timeline /> */}
         {/* <ContactUS className= "m-3 p-3"/> */}
         <Footer />
