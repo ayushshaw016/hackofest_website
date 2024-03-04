@@ -16,12 +16,12 @@ import AboutUS from "./components/AboutUS/About.jsx";
 import Rules from "./components/Rules/Rules.jsx";
 import Sponsors from "./components/Sponsors/Sponsors.jsx";
 import { Route, Routes } from "react-router-dom";
-import newbg from "../src/assets/newbg.mp4"
+import newbg from "../src/assets/newbg.mp4";
 import new_bg1 from "../src/assets/new_bg1.mp4";
 // import new_bg2 from "../src/assets/new_bg2.mkv"
 import Team from "./components/Team/Team.jsx";
 import ContactUS from "./components/Contact US/ContactUS.jsx";
-
+import Timeline from "../src/components/Timeline/Timeline.jsx";
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -38,21 +38,22 @@ const App = () => {
           muted
           className="fixed right-0 top-0 h-screen w-full object-cover z-[-1]"
         >
-          <source src={bgVideo} type="video/mp4" className="opacity-10"/>
+          <source src={bgVideo} type="video/mp4" className="opacity-10" />
         </video>
         <Navbar />
         {/* <AboutUS/> */}
-      {/* <Rules/>/ */}
+        {/* <Rules/>/ */}
         {/* yeh charo component jo hai wo ek sasth render hone chahiye as a main page in the sam serial */}
-      {/* <Hero/>
+        {/* <Hero/>
       <HeroCard />
       <Rapidscat />
       <Satelite /> */}
-      {/* <Sponsors/> */}
-      {/* <Footer5 /> */}
-      <Team/>
-      {/* <ContactUS className= "m-3 p-3"/> */}
-      <Footer />
+        {/* <Sponsors/> */}
+        {/* <Footer5 /> */}
+        <Team />
+        {/* <Timeline /> */}
+        {/* <ContactUS className= "m-3 p-3"/> */}
+        <Footer />
       </div>
     </div>
   );
