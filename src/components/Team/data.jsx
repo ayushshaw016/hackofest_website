@@ -1,4 +1,46 @@
-import {Abhinandanraj, Abhinavchandra, AdarshMishra, Adityasrivastav, Ajitpandey,Akashsaurav,Anishkumar,Archikumari,Arpitadwivedi,Arunsingh,Aryanranjan,Ashishyadav,Ayushshaw,Gauharmaqubool,Harshvardhan,Harshvardhandansena,Kirtanpatidar,Kushagra,Mahtabalam,Mitalidwivedi,Monukumar,Munquabanwer,Muskan,Nishantkumar,Piyushprasad,Priteshutkarsh,PriyaKanaujia,Priyanshu,Rahulkumar,Rishavanand,Ritikaranjan,Sagarkumar,Salonikushwaha,Sameergupta,Shailendrayadav,Shanvidixit,Subodhkumar,Suyashkrishna,Tusharpradhan,Vanikumari,Viverkumar} from "../../assets/teamsprofile/index.js";
+import {
+  Abhinandanraj,
+  Abhinavchandra,
+  AdarshMishra,
+  Adityasrivastav,
+  Ajitpandey,
+  Akashsaurav,
+  Anishkumar,
+  Archikumari,
+  Arpitadwivedi,
+  Arunsingh,
+  Aryanranjan,
+  Ashishyadav,
+  Ayushshaw,
+  Gauharmaqubool,
+  Harshvardhan,
+  Harshvardhandansena,
+  Kirtanpatidar,
+  Kushagra,
+  Mahtabalam,
+  Mitalidwivedi,
+  Monukumar,
+  Munquabanwer,
+  Muskan,
+  Nishantkumar,
+  Piyushprasad,
+  Priteshutkarsh,
+  PriyaKanaujia,
+  Priyanshu,
+  Rahulkumar,
+  Rishavanand,
+  Ritikaranjan,
+  Sagarkumar,
+  Salonikushwaha,
+  Sameergupta,
+  Shailendrayadav,
+  Shanvidixit,
+  Subodhkumar,
+  Suyashkrishna,
+  Tusharpradhan,
+  Vanikumari,
+  Viverkumar,
+} from "../../assets/teamsprofile/index.js";
 // akash-event lead, anish , priyanshu-event colead, ashutosh singh chief cordinator, arun singh-community engagemnet lead, deepak technical lead, munquab-outreach lead, ayush, abhinandan-web lead,Aman-archi-design lead, aman sinha-pr lead,suyashkrsihna-discpline lead, prakahrkri-content lead, bind-mentorship lead, mayank-Pr lead, harshvardhan-recrational lead, shailendra yadav treasurer, mahtabalam-media lead, ajit-technical, pritesh
 const Leads = [
   {
@@ -10,9 +52,9 @@ const Leads = [
     github: "https://github.com/akashslm10",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/akash-saurav-89b4b2245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-
+    linkedin:
+      "https://www.linkedin.com/in/akash-saurav-89b4b2245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
     name: "Priyanshu Raj",
@@ -23,11 +65,23 @@ const Leads = [
     github: "https://github.com/Priyanshu8797",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/priyanshu-raj-9bb1311b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/priyanshu-raj-9bb1311b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
+  {
+    name: "Anish Kumar",
+    role: "Event Co-Lead",
+    about: "",
+    email: "anishk.me@nitp.ac.in",
+    image: Priyanshu,
+    github: "",
+    twitter: "",
+    instagram: "",
+    linkedin: "",
+    discord: "",
+  },
+
   {
     name: "Ashutosh Singh",
     role: "Chief Cordinator",
@@ -38,24 +92,21 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/ayush-kumar-shaw-ba671928b",
-    discord: ""
-
+    discord: "",
   },
   {
-
     name: "Arun Singh",
     role: "Community Engagement Lead",
-    about:"",
+    about: "",
     email: "aruns.ug21.cs@nitp.ac.in",
     image: Arunsingh,
     github: "https://github.com/arunsingh2004",
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/arun-singh-1a0b25225",
-    discord: ""
-
+    discord: "",
   },
-  
+
   {
     name: "Depak Kumar",
     role: "Technical Lead",
@@ -65,12 +116,11 @@ const Leads = [
     github: "https://github.com/deepaksinghcsebtech2025",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/deepak-kumar-287917207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-
+    linkedin:
+      "https://www.linkedin.com/in/deepak-kumar-287917207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
-
     name: "Munquab Anwer",
     role: "Outreach Lead",
     about: "",
@@ -80,8 +130,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/munquab-anwer-481a93236",
-    discord: ""
-
+    discord: "",
   },
   {
     name: "Ayush Kumar shaw",
@@ -93,10 +142,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/ayush-kumar-shaw-ba671928b",
-    discord: ""
-
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Abhinandan Raj",
     role: "Web-Lead",
@@ -106,11 +153,10 @@ const Leads = [
     github: "https://github.com/abhi2003-drigger",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/abhinandan-raj-he-him-95ba31222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/abhinandan-raj-he-him-95ba31222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Aman",
     role: "Design-Lead",
@@ -120,11 +166,10 @@ const Leads = [
     github: "https://github.com/abhi2003-drigger",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/abhinandan-raj-he-him-95ba31222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-
-  }
-,
+    linkedin:
+      "https://www.linkedin.com/in/abhinandan-raj-he-him-95ba31222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Mayank",
     role: "Lead",
@@ -135,8 +180,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/ayush-kumar-shaw-ba671928b",
-    discord: ""
-
+    discord: "",
   },
   {
     name: "Harsh Vardhan",
@@ -148,8 +192,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/harsh-vardhan-4354b1237/",
-    discord: ""
-
+    discord: "",
   },
   {
     name: "Suyash Krishna",
@@ -161,7 +204,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/skrish11",
-    discord: ""
+    discord: "",
   },
   {
     name: "Prakhar Krishna",
@@ -169,14 +212,15 @@ const Leads = [
     about: "Passionate about coding and creating meaningful software.",
     email: "prakhark.ug21.ce@nitp.ac.in",
     image: "",
-    github: "https://drive.google.com/open?id=1BrOtKJkIMkrqpSAfdhWToxOfzmymVFaK",
+    github:
+      "https://drive.google.com/open?id=1BrOtKJkIMkrqpSAfdhWToxOfzmymVFaK",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/prakhar-krishna-73803b250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/prakhar-krishna-73803b250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    discord: "",
   },
   {
-
     name: "Shailendra Yadav",
     role: "Lead",
     about: "Passionate about coding and creating meaningful software.",
@@ -185,8 +229,9 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/shailendra-yadav-24960b222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/shailendra-yadav-24960b222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
     name: "Priya Kanaujia",
@@ -197,8 +242,9 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/priya-kanaujia-121a44230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/priya-kanaujia-121a44230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
     name: "Mahtab Alam",
@@ -209,8 +255,9 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/mahtab-alam-9b023b286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/mahtab-alam-9b023b286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
     name: "Ajit Kuamr Pandey",
@@ -222,7 +269,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/ajit-pandey-a03742174",
-    discord: ""
+    discord: "",
   },
 
   {
@@ -235,15 +282,12 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/pritesh-utkarsh-6679a627b/",
-    discord: ""
-  }
-]
-  
+    discord: "",
+  },
+];
 
-
-
-
-  const members = [{
+const members = [
+  {
     name: "Gauhar Maqubool",
     role: "",
     about: "Passionate about coding and creating meaningful software.",
@@ -252,8 +296,9 @@ const Leads = [
     github: "https://github.com/gouharmaqubool",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/gauhar-maqubool-70b38225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/gauhar-maqubool-70b38225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
     name: "Aman Sinha",
@@ -265,7 +310,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/aman-sinha-994b16227",
-    discord: ""
+    discord: "",
   },
   ,
   {
@@ -277,8 +322,9 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/rishav-anand-24718b281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/rishav-anand-24718b281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
     name: "Anjali Kumari",
@@ -290,9 +336,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/anjali-kumari-12aa07257",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Sameer Gupta",
     role: "Campus Ambassador Team",
@@ -303,7 +348,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/sameer-gupta-18a366259",
-    discord: ""
+    discord: "",
   },
   ,
   // profile photo needed
@@ -317,9 +362,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/anjali-rani-03975928b/",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Harshvardhan Dansena",
     role: "Campus Ambassador Team",
@@ -329,10 +373,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/harshvardhan-dansena-69666328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/harshvardhan-dansena-69666328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Monu Kumar",
     role: "Campus Ambassadar Team",
@@ -342,10 +386,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/monu-kumar-61b776284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/monu-kumar-61b776284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Subodh Kumar",
     role: "Outreach Team",
@@ -355,10 +399,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/subodh-kumar-1582ba224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/subodh-kumar-1582ba224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Rahul Kumar",
     role: "Outreach Team, Speaker and Judges",
@@ -369,9 +413,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://in.linkedin.com/in/rahul-kumar-690370202p",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Ashish yadav",
     role: "PR Team, Design",
@@ -382,21 +425,21 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/ashish-yadav-82bb04251",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   ,
   {
     name: "Shanvi Dixit",
     role: "PR Team, Outreach team",
     about: "Passionate about coding and creating meaningful software.",
     email: "shanvid.ug23.ch@nitp.ac.in",
-    image:Shanvidixit,
+    image: Shanvidixit,
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/shanvi-dixit-42ba75283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/shanvi-dixit-42ba75283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    discord: "",
   },
   ,
   {
@@ -408,11 +451,11 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/arpita-dwivedi-6bb002271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
+    linkedin:
+      "https://www.linkedin.com/in/arpita-dwivedi-6bb002271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
 
-  ,
   {
     name: "Saloni Kushwaha",
     role: "Speakers and Judges",
@@ -423,9 +466,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "http://www.linkedin.com/in/saloni-kushwaha-a092a5257",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Vani Kumari",
     role: "Campus Ambassador Team",
@@ -436,9 +478,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/vani-singh-45645b245",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Abhinav Chandra",
     role: "Speakers and Judges",
@@ -448,10 +489,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://drive.google.com/open?id=1XripsiUyQKsz49g89HyooGktn7XFRFX4",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://drive.google.com/open?id=1XripsiUyQKsz49g89HyooGktn7XFRFX4",
+    discord: "",
+  },
   {
     name: "Ritika Ranjan Treti",
     role: "PR Team, Speakers and Judges",
@@ -461,10 +502,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://drive.google.com/open?id=1sp3Ea55RIuecYEx4AH9Qsf5AVaZ7eaYF",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://drive.google.com/open?id=1sp3Ea55RIuecYEx4AH9Qsf5AVaZ7eaYF",
+    discord: "",
+  },
   {
     name: "Archi Kumari",
     role: "Campus Ambassador Team",
@@ -475,7 +516,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/archi-kumari-527866257",
-    discord: ""
+    discord: "",
   },
   {
     name: "Aryan Ranjan",
@@ -487,9 +528,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/aryanranjan2005",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Adarsh Mishra",
     role: "PR Team , Sponsorship",
@@ -499,10 +539,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/adarsh-mishra-aaa510249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/adarsh-mishra-aaa510249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Sagar Kumar",
     role: "",
@@ -513,9 +553,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/sagar-kumar-239a31237",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "kushagra",
     role: "Campus Ambassadar Team",
@@ -525,8 +564,9 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/kushagra-singh-888996258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/kushagra-singh-888996258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   ,
   {
@@ -539,9 +579,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/aman-anand-a2422b256",
-    discord: ""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Muskan",
     role: "Campus Ambassadar Team",
@@ -551,10 +590,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/muskan-sharma-99125b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/muskan-sharma-99125b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Nishikant Kumar",
     role: "Outreach Team",
@@ -564,10 +603,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/nishikant-kumar-5101a3271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/nishikant-kumar-5101a3271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Vivek Kumar Jha",
     role: "Design Team",
@@ -577,10 +616,10 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/vivek-jha-827a5a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
-  }
-  ,
+    linkedin:
+      "https://www.linkedin.com/in/vivek-jha-827a5a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   {
     name: "Tushar Pradhan",
     role: "PR Team, technical",
@@ -590,8 +629,9 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/tushar-pradhan-373916257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: ""
+    linkedin:
+      "https://www.linkedin.com/in/tushar-pradhan-373916257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
   },
   {
     name: "Piyush Kumar Prasad",
@@ -603,7 +643,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/piyushkumarprasad/",
-    discord: ""
+    discord: "",
   },
   {
     name: "Mitali Dwivedi",
@@ -615,7 +655,7 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/mitali-dwivedi-9ab40222b",
-    discord:""
+    discord: "",
   },
   {
     name: "Aditya Srivastav",
@@ -627,9 +667,8 @@ const Leads = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/adityasri10938/",
-    discord:""
-  }
-  ,
+    discord: "",
+  },
   {
     name: "Amit Baghel",
     role: "PR Team",
@@ -639,10 +678,11 @@ const Leads = [
     github: "",
     twitter: "",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/amit-baghel-40810b273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord:""
-  }
+    linkedin:
+      "https://www.linkedin.com/in/amit-baghel-40810b273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
   // Add more team members as needed
 ];
 
-export {Leads, members};
+export { Leads, members };
