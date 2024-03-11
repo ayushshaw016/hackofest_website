@@ -19,7 +19,7 @@ const Prizes = () =>{
                     </div>
                     <hr/>
                     <div className="xs:mt-8 md:mt-40 xs:ml-4 md:ml-8 mb-6">
-                    <img src={secondprize} className="mx-auto rounded-full "/>
+                    <img src={secondprize} className="mx-auto rounded-full"/>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod consequatur quasi velit optio blanditiis placeat repellendus nam eos reprehenderit, sit mollitia facere officiis iste praesentium vitae. Velit, voluptatibus sunt Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea consequatur libero eaque nemo beatae atque eligendi dignissimos tempore est amet modi facilis labore incidunt, excepturi dolor architecto velit unde commodi?
                     
                     </div>

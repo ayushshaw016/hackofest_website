@@ -4,7 +4,7 @@ import MountainPng from "../../assets/moon-surface-hd.png";
 const Hero = () => {
   return (
     <div className=" bg-black/20 h-full">
-      <div className="h-full flex justify-center items-center p-4">
+      <div className="h-full flex justify-center items-center p-4 xs:flex-col md:flex-row">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="text-white space-y-4 lg:pr-36">
             <h1 data-aos="fade-up" className="text-6xl font-bold font-serif
@@ -29,8 +29,38 @@ const Hero = () => {
             </a>
                </div>
           </div>
-          <div></div>
         </div>
+          <div className="mr-10">
+          <p className="text-white text-center">Count Down</p>
+            <span className="text-white">
+            <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":15}}></span>
+    </span>
+    days
+  </div> 
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":10}}></span>
+    </span>
+    hours
+  </div> 
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":24}}></span>
+    </span>
+    min
+  </div> 
+  <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value":31}}></span>
+    </span>
+    sec
+  </div>
+</div>
+            </span>
+          </div>
       </div>
       <img
         src={MountainPng}

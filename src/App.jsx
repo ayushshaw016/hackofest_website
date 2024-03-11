@@ -23,6 +23,7 @@ import Team from "./components/Team/Team.jsx";
 import ContactUS from "./components/Contact US/ContactUS.jsx";
 import Timeline from "../src/components/Timeline/Timeline.jsx";
 import Prizes from "./components/Prizes/Prizes.jsx";
+// import TeamCarousel from "./components/Carousel/Carousel.jsx";
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -52,8 +53,9 @@ const App = () => {
         {/* <Sponsors/> */}
         {/* <Footer5 /> */}
         {/* <Team /> */}
-        <Prizes/>
-        {/* <Timeline /> */}
+        {/* <Prizes/> */}
+{/* <TeamCarousel/> */}
+        <Timeline />
         {/* <ContactUS className= "m-3 p-3"/> */}
         <Footer />
       </div>

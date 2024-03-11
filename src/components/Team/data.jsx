@@ -248,16 +248,28 @@ const Leads = [
     discord: "",
   },
   {
-    name: "Mahtab Alam",
-    role: "Lead",
+    name: "Aman Sinha",
+    role: "PR Lead",
     about: "Passionate about coding and creating meaningful software.",
-    email: "mahtaba.ug21.ce@nitp.ac.in",
-    image: Mahtabalam,
+    email: "amans.ug21.me@nitp.ac.in",
+    image: "",
     github: "",
     twitter: "",
     instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/mahtab-alam-9b023b286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/in/aman-sinha-994b16227",
+    discord: "",
+  }
+  ,
+  {
+    name: "Mitali Dwivedi",
+    role: "PR Lead",
+    about: "Passionate about coding and creating meaningful software.",
+    email: "mitalidwivedi168@gmail.com",
+    image: Mitalidwivedi,
+    github: "",
+    twitter: "",
+    instagram: "",
+    linkedin: "https://www.linkedin.com/in/mitali-dwivedi-9ab40222b",
     discord: "",
   },
   {
@@ -288,31 +300,6 @@ const Leads = [
 ];
 
 const members = [
-  {
-    name: "Aman Sinha",
-    role: "PR Team, Sponsorship",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "amans.ug21.me@nitp.ac.in",
-    image: "",
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin: "https://www.linkedin.com/in/aman-sinha-994b16227",
-    discord: "",
-  }
-  ,
-  {
-    name: "Mitali Dwivedi",
-    role: "PR Team",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "mitalidwivedi168@gmail.com",
-    image: Mitalidwivedi,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin: "https://www.linkedin.com/in/mitali-dwivedi-9ab40222b",
-    discord: "",
-  },
   {
     name: "Saloni Kushwaha",
     role: "Speakers and Judges",
@@ -392,20 +379,6 @@ const members = [
     discord: "",
   },
   {
-    name: "Gauhar Maqubool",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "gauharmaqubool@gmail.com",
-    image: Gauharmaqubool,
-    github: "https://github.com/gouharmaqubool",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/gauhar-maqubool-70b38225a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: "",
-  }
-  ,
-  {
     name: "Rishav Anand",
     role: "PR team, Speakers and Judges",
     about: "Passionate about coding and creating meaningful software.",
@@ -457,19 +430,6 @@ const members = [
     discord: "",
   },
   {
-    name: "Harshvardhan Dansena",
-    role: "Campus Ambassador Team",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "harshvardhand.dd22.ce@nitp.ac.in",
-    image: Harshvardhandansena,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/harshvardhan-dansena-69666328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: "",
-  },
-  {
     name: "Monu Kumar",
     role: "Campus Ambassadar Team",
     about: "Passionate about coding and creating meaningful software.",
@@ -507,19 +467,6 @@ const members = [
     linkedin: "https://in.linkedin.com/in/rahul-kumar-690370202p",
     discord: "",
   },
-  {
-    name: "Ashish yadav",
-    role: "PR Team, Design",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "ashishy.ug22.ce@nitp.ac.in",
-    image: Ashishyadav,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin: "https://www.linkedin.com/in/ashish-yadav-82bb04251",
-    discord: "",
-  },
- 
   {
     name: "Abhinav Chandra",
     role: "Speakers and Judges",
@@ -607,19 +554,6 @@ const members = [
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/aman-anand-a2422b256",
-    discord: "",
-  },
-  {
-    name: "Nishikant Kumar",
-    role: "Outreach Team",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "raghvendras.ug22.me@nitp.ac.in",
-    image: Nishantkumar,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/nishikant-kumar-5101a3271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     discord: "",
   },
   {

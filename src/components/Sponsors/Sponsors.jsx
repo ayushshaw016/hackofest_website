@@ -18,7 +18,7 @@ const Sponsors = () => {
           </div>
           </div>
 
-          <h2 className="text-5xl text-center">Associate Sponsor</h2>
+          <h2 className="text-5xl text-center">Powered By</h2>
           <br/>
           <div className="justify-around flex flex-col md:flex-row">
           <div className="my-4 mx-2">
@@ -36,7 +36,7 @@ const Sponsors = () => {
           
           </div>
 
-          <h2 className="text-5xl text-center">Subevent Sponsor</h2>
+          <h2 className="text-5xl text-center">Gold Sponsor</h2>
           <br/>
           <div className="justify-around flex flex-col md:flex-row" >
           <div className="my-4 mx-2">
@@ -48,6 +48,36 @@ const Sponsors = () => {
           <div className="my-4 mx-2">
           <img src={discord} className="w-72 h-auto"/>
           </div>
+          </div>
+
+          <h2 className="text-5xl text-center">Silver Sponsor</h2>
+          <br/>
+          <div className="justify-around flex flex-col md:flex-row" >
+          <div className="my-4 mx-2">
+          <img src={discord} className="w-72 h-auto"/>
+          </div>
+          <div className="my-4 mx-2">
+          <img src={discord} className="w-72 h-auto"/>
+          </div>
+          <div className="my-4 mx-2">
+          <img src={discord} className="w-72 h-auto"/>
+          </div>
+          </div>
+
+          <h2 className="text-5xl text-center">Media Partner</h2>
+          <br/>
+          <div className="justify-around flex flex-col md:flex-row" >
+          <div className="my-4 mx-2">
+          <img src={discord} className="w-72 h-auto"/>
+          </div>
+          </div>
+
+          <h2 className="text-5xl text-center">Merchandise Partner</h2>
+          <br/>
+          <div className="justify-around flex flex-col md:flex-row" >
+          <div className="my-4 mx-2">
+          <img src={discord} className="w-72 h-auto"/>
+          </div> 
           </div>
 
           <h2 className="text-5xl text-center">Certificate Sponsor</h2>
