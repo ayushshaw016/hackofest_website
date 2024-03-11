@@ -34,10 +34,10 @@ export default function CustomizedTimeline() {
 
     return (
         <ThemeProvider theme={theme} className ="p-10 m-10">
-            <Timeline align="alternate" className="p-10">
+            <Timeline align="alternate" className="p-10  mt-24">
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography variant="body2" color="textSecondary">
+                        <Typography variant="body2" color="textSecondary" className='text-3xl'>
                             01 April 2021
                         </Typography>
                     </TimelineOppositeContent>

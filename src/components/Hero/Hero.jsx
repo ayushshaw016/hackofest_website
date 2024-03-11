@@ -52,13 +52,13 @@ const Hero = () => {
 
   return (
     <div className=" bg-black/20 h-full">
-      <div className="h-full flex justify-center items-center p-4 xs:flex-col md:flex-row">
+      <div className="h-full flex flex-col justify-center items-center p-4 md:flex-row mt-0">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="text-white space-y-4 lg:pr-36">
-            <h1 data-aos="fade-up" className="text-6xl font-bold font-serif">
+          <div className="text-white space-y-4 lg:pr-36 xs:w-full" data-aos="fade-right" data-aos-delay="300">
+            <h1  className="text-6xl font-bold font-serif">
               HackO'Fest
             </h1>
-            <p data-aos="fade-up" data-aos-delay="300">
+            <p >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea
               dolorem eius accusamus beatae. Nulla quis beatae quo, possimus
               tempora similique dignissimos repellat aperiam veniam culpa
@@ -66,8 +66,9 @@ const Hero = () => {
             </p>
             <div>
               <a
-                data-aos="fade-up"
-                data-aos-delay="500"
+                // data-aos="fade-up"
+                // data-aos-delay="500"
+
                 className="bg-indigo-500 text-white hover:bg-red-600 rounded-lg duration-200 text-2xl px-6 py-2 mt-4 font-bold"
                 href="https://hackofestnitp.devfolio.co/"
                 target="_blank"
@@ -78,8 +79,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="mr-10">
-          <p className="text-white text-center">Count Down</p>
+        <div className="mr-10 mt-10 md:-mt-6"   data-aos="fade-left"
+                data-aos-delay="500">
+          <p className="text-white text-center ffont-serif  font-bold text-4xl ">Count Down</p>
           <span className="text-white">
             <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
               {timerComponents}

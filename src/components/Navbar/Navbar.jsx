@@ -34,11 +34,12 @@ const Navbar = () => {
                   <Link to="/sponsors">Sponsors</Link>
                 </li>
                 <li className="hover:text-violet-600 hover:bg-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
-                  <Link to="/team">Team</Link>
+                  <Link to="/prize">Prize</Link>
                 </li>
                 <li className="hover:text-violet-600 hover:bg-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
-                  <Link to="/contact">Contact US</Link>
+                  <Link to="/team">Team</Link>
                 </li>
+               
               </ul>
             </div>
             <div className="float-right">

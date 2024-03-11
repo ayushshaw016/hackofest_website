@@ -16,7 +16,8 @@ import Team from "./components/Team/Team.jsx";
 import ContactUS from "./components/Contact US/ContactUS.jsx";
 import bgVideo from "./assets/newbg.mp4";
 import Timeline from "./components/Timeline/Timeline.jsx";
-
+import Main from "./components/Main/Mainpage.jsx";
+import Prizes from "./components/Prizes/Prizes.jsx";
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -39,7 +40,7 @@ const App = () => {
           </video>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Hero />} />
+            <Route path="/" element={<Main />} />
             <Route path="/hero-card" element={<HeroCard />} />
             <Route path="/rapidscat" element={<Rapidscat />} />
             <Route path="/satelite" element={<Satelite />} />
@@ -48,10 +49,11 @@ const App = () => {
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<ContactUS />} />
-            <Route path="/contact" element={<ContactUS />} />
+            <Route path="/prize" element={<Prizes />} />
             <Route path="/timeline" element = {<Timeline />} />
           </Routes>
           {/* Add Footer or Footer5 here based on your requirements */}
+          {/* <Footer/> */}
         </div>
       </div>
     </Router>

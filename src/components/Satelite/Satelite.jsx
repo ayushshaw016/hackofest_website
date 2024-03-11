@@ -1,7 +1,7 @@
 import React from "react";
 import satelitImg from "../../assets/satelite2.jpg";
 
-const Rapidscat = () => {
+const Satelite = () => {
   return (
     <>
       <section className="bg-primary text-white py-20 -mb-10">
@@ -52,4 +52,4 @@ const Rapidscat = () => {
   );
 };
 
-export default Rapidscat;
+export default Satelite;
