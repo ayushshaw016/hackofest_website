@@ -1,123 +1,120 @@
-import React from "react";
-// import "../Timeline/timeline.css";
-import "./timeline.scss";
+import React from 'react';
+import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import Timeline from '@material-ui/lab/Timeline';
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+import TimelineConnector from '@material-ui/lab/TimelineConnector';
+import TimelineContent from '@material-ui/lab/TimelineContent';
+import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
+import TimelineDot from '@material-ui/lab/TimelineDot';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 
-const Timeline = () => {
-  return (
-    <>
- 
- <section className="ps-timeline-sec h-full max-h-screen bg-white justify-center mx-4 md:mx-32 mt-32 border-white border-2 border-solid rounded-3xl px-4 font-serif mb-4 pb-10">
-  <div className="container h-full max-h-screen overflow-auto">
-    <ol className="ps-timeline" style={{ display: 'flex', flexDirection: 'row' }}>
-      <li style={{ flex: 1 }}>
-        <div className="img-handler-top">
-          <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_03.png" alt="" />
-        </div>
-        <div className="ps-bot">
-          <p>Do you have a recent injury or long term pain?</p>
-        </div>
-        <span className="ps-sp-top">01</span>
-      </li>
+const useStyles = makeStyles((theme) => ({
+    paper: {
+        padding: '6px 16px',
+    },
+    secondaryTail: {
+        backgroundColor: theme.palette.secondary.main,
+    },
+}));
 
-      <li style={{ flex: 1 }}>
-        <div className="img-handler-bot">
-          <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png" alt="" />
-        </div>
-        <div className="ps-top">
-          <p>Have you tried Physiotherapy, Chiropractor or your GP without the pain free results?</p>
-        </div>
-        <span className="ps-sp-bot">02</span>
-      </li>
-      
-      <li style={{ flex: 1 }}>
-        <div className="img-handler-top">
-          <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_05.png" alt="" />
-        </div>
-        <div className="ps-bot">
-          <p>Let Physology assess and treat your pain with our trusted revolusionary approach.</p>
-        </div>
-        <span className="ps-sp-top">03</span>
-      </li>
+export default function CustomizedTimeline() {
+    const theme = React.useMemo(
+        () =>
+            createMuiTheme({
+                palette: {
+                    type: 'dark',
+                },
+            }),
+        []
+    );
 
-      <li style={{ flex: 1 }}>
-        <div className="img-handler-bot">
-          <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_10.png" alt="" />
-        </div>
-        <div className="ps-top">
-          <p>Join our happy family of pain free clients.</p>
-        </div>
-        <span className="ps-sp-bot">04</span>
-      </li>
-    </ol>
-  </div>
-</section>
+    const classes = useStyles();
 
-
-
-    </>
-  );
-};
-
-export default Timeline;
-{/* <section className="ps-timeline-sec h-full max-h-screen bg-white  justify-center  mx-4 md:mx-32 mt-32  border-white border-2 border-solid rounded-3xl px-4 font-serif mb-4 pb-10 ">
-        <div className="container h-full max-h-screen overflow-auto">
-          <ol className="ps-timeline ">
-            <li>
-              <div className="img-handler-top">
-                <img
-                  src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_03.png"
-                  alt=""
-                />
-              </div>
-              <div className="ps-bot">
-                <p>Do you have a recent injury or long term pain?</p>
-              </div>
-              <span className="ps-sp-top">01</span>
-            </li>
-
-            <li>
-              <div className="img-handler-bot">
-                <img
-                  src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png"
-                  alt=""
-                />
-              </div>
-              <div className="ps-top">
-                <p>
-                  Have you tried Physiotherapy, Chiropractor or your GP without
-                  the pain free results?
-                </p>
-              </div>
-              <span className="ps-sp-bot">02</span>
-            </li>
-            <li>
-              <div className="img-handler-top">
-                <img
-                  src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_05.png"
-                  alt=""
-                />
-              </div>
-              <div className="ps-bot">
-                <p>
-                  Let Physology assess and treat your pain with our trusted
-                  revolusionary approach.
-                </p>
-              </div>
-              <span className="ps-sp-top">03</span>
-            </li>
-            <li>
-              <div className="img-handler-bot">
-                <img
-                  src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_10.png"
-                  alt=""
-                />
-              </div>
-              <div className="ps-top">
-                <p>Join our happy family of pain free clients.</p>
-              </div>
-              <span className="ps-sp-bot">04</span>
-            </li>
-            
-          </ol>
-        </div>
-      </section> */}
+    return (
+        <ThemeProvider theme={theme} className ="p-10 m-10">
+            <Timeline align="alternate" className="p-10">
+                <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            01 April 2021
+                        </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                                Registrations Start
+                            </Typography>
+                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            15 April 2021
+                        </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                                Registration Ends
+                            </Typography>
+                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                                Team Confirmation Rollout & RSVP Start
+                            </Typography>
+                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                                RVSP End
+                            </Typography>
+                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                                Check In & Hackathon Starts
+                            </Typography>
+                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+            </Timeline>
+        </ThemeProvider>
+    );
+}
