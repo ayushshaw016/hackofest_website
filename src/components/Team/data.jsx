@@ -109,7 +109,7 @@ const Leads = [
   },
 
   {
-    name: "Depak Kumar",
+    name: "Deepak Kumar",
     role: "Technical Lead",
     about: "",
     email: "ayushs.ug21.cs@nitp.ac.in",
