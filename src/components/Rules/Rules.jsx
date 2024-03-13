@@ -4,7 +4,7 @@ import React from "react";
 const Rules = () => {
   return (
     <>
- <div className="text-white text-2xl mx-4 md:mx-32 mt-32 bg-[#4d4949] border-white border-2 border-solid rounded-3xl px-4 font-serif mb-4 pb-10 overflow-auto">
+ <div className="text-white text-2xl mx-4 md:mx-32 mt-32 bg-[#4d4949] border-white border-2 border-solid rounded-3xl px-4 font-serif  pb-10 overflow-auto">
     <h1 className="text-4xl lg:text-6xl text-center font-serif mt-2 underline text-[#cb5bcb]">RULES</h1>
     <br/>
 <ol className="mx-3">

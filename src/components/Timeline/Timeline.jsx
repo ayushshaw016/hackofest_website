@@ -37,7 +37,7 @@ export default function CustomizedTimeline() {
             <Timeline align="alternate" className="p-10  mt-24">
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography variant="body2" color="textSecondary" className='text-3xl'>
+                        <Typography variant="body2" color="textSecondary">
                             01 April 2021
                         </Typography>
                     </TimelineOppositeContent>
