@@ -54,7 +54,7 @@ const App = () => {
             {/* <Route path="/themes" element = {<Timeline />} /> */}
           </Routes>
           {/* Add Footer or Footer5 here based on your requirements */}
-          <Footer5 />
+          {/* <Footer5 /> */}
         </div>
       </div>
     </Router>

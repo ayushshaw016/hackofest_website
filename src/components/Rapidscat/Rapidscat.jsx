@@ -1,5 +1,5 @@
 import React from "react";
-import sateliteImg from "../../assets/satelite1.jpg";
+import sateliteImg from "../../assets/softwaredomain.jpg";
 
 const Rapidscat = () => {
   return (
@@ -18,25 +18,24 @@ const Rapidscat = () => {
               <p
                 data-aos="fade-up"
                 data-aos-delay="300"
-                className="text-sky-800 uppercase"
+                className="text-sky-800 uppercase text-2xl font-bold"
+
               >
-                our mission
+                Software Domain
               </p>
-              <h1
-                data-aos="fade-up"
-                data-aos-delay="500"
-                className="uppercase text-5xl"
-              >
-                Rapidscat
-              </h1>
               <p data-aos="fade-up" data-aos-delay="700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae reprehenderit expedita corporis, non doloremque.
-                Consequatur consectetur quisquam qui sunt. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Eos molestiae reprehenderit
-                expedita corporis, non doloremque. Consequatur consectetur
-                quisquam qui sunt.
+              Quality Education 
               </p>
+              <p data-aos="fade-up" data-aos-delay="700">
+              Cyber Security 
+              </p>
+              <p data-aos="fade-up" data-aos-delay="700">
+              Healthcare and Medical Facility 
+              </p>
+              <p data-aos="fade-up" data-aos-delay="700">
+              Business and Economic Growth 
+              </p>
+
               <button
                 data-aos="fade-up"
                 data-aos-delay="900"

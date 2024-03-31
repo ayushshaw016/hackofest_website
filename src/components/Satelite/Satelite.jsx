@@ -1,5 +1,5 @@
 import React from "react";
-import satelitImg from "../../assets/satelite2.jpg";
+import satelitImg from "../../assets/hardwaredomain.jpg";
 
 const Satelite = () => {
   return (
@@ -11,25 +11,24 @@ const Satelite = () => {
               <p
                 data-aos="fade-up"
                 data-aos-delay="300"
-                className="text-sky-800 uppercase"
+                className="text-sky-800 uppercase text-2xl font-bold"
               >
-                our mission
+               HARDWARE DOMAIN
               </p>
-              <h1
-                data-aos="fade-up"
-                data-aos-delay="500"
-                className="uppercase text-5xl"
-              >
-                Rapidscat
-              </h1>
+              
               <p data-aos="fade-up" data-aos-delay="700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae reprehenderit expedita corporis, non doloremque.
-                Consequatur consectetur quisquam qui sunt. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Eos molestiae reprehenderit
-                expedita corporis, non doloremque. Consequatur consectetur
-                quisquam qui sunt.
+              Internet of Things (IoT) Solution
               </p>
+              <p data-aos="fade-up" data-aos-delay="700">
+              Wearables Technology
+              </p>
+              <p data-aos="fade-up" data-aos-delay="700">
+              Robotics
+              </p>
+              <p data-aos="fade-up" data-aos-delay="700">
+              Home Automation
+              </p>
+
               <button
                 data-aos="fade-up"
                 data-aos-delay="900"
