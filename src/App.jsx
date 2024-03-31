@@ -18,46 +18,61 @@ import bgVideo from "./assets/newbg.mp4";
 import Timeline from "./components/Timeline/Timeline.jsx";
 import Main from "./components/Main/Mainpage.jsx";
 import Prizes from "./components/Prizes/Prizes.jsx";
+import { useState } from "react";
+import Loading from "./components/loading.jsx";
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
   React.useEffect(() => {
     AOS.init({
       duration: 1200,
       easing: "ease-in-out",
     });
   });
+  React.useEffect(() => {
+    // Simulate loading for 2 seconds
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
 
   return (
-    <Router>
-      <div className="">
-        <div className="h-screen">
-          <video
-            autoPlay
-            loop
-            muted
-            className="fixed right-0 top-0 h-screen w-full object-cover z-[-1]"
-          >
-            <source src={bgVideo} type="video/mp4" className="opacity-10" />
-          </video>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/hero-card" element={<HeroCard />} />
-            <Route path="/rapidscat" element={<Rapidscat />} />
-            <Route path="/satelite" element={<Satelite />} />
-            <Route path="/about" element={<AboutUS />} />
-            <Route path="/rules" element={<Rules />} />
-            <Route path="/sponsors" element={<Sponsors />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/contact" element={<ContactUS />} />
-            <Route path="/prize" element={<Prizes />} />
-            <Route path="/timeline" element={<Timeline />} />
-            {/* <Route path="/themes" element = {<Timeline />} /> */}
-          </Routes>
-          {/* Add Footer or Footer5 here based on your requirements */}
-          {/* <Footer5 /> */}
-        </div>
-      </div>
-    </Router>
+    <div>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <Router>
+          <div className="">
+            <div className="h-screen">
+              <video
+                autoPlay
+                loop
+                muted
+                className="fixed right-0 top-0 h-screen w-full object-cover z-[-1]"
+              >
+                <source src={bgVideo} type="video/mp4" className="opacity-10" />
+              </video>
+              <Navbar />
+              <Routes>
+                <Route path="/" element={<Main />} />
+                <Route path="/hero-card" element={<HeroCard />} />
+                <Route path="/rapidscat" element={<Rapidscat />} />
+                <Route path="/satelite" element={<Satelite />} />
+                <Route path="/about" element={<AboutUS />} />
+                <Route path="/rules" element={<Rules />} />
+                <Route path="/sponsors" element={<Sponsors />} />
+                <Route path="/team" element={<Team />} />
+                <Route path="/contact" element={<ContactUS />} />
+                <Route path="/prize" element={<Prizes />} />
+                <Route path="/timeline" element={<Timeline />} />
+                {/* <Route path="/themes" element = {<Timeline />} /> */}
+              </Routes>
+              {/* Add Footer or Footer5 here based on your requirements */}
+              <Footer5 />
+            </div>
+          </div>
+        </Router>
+      )}
+    </div>
   );
 };
 
