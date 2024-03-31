@@ -1,120 +1,83 @@
-import React from 'react';
-import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
-import Timeline from '@material-ui/lab/Timeline';
-import TimelineItem from '@material-ui/lab/TimelineItem';
-import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
-import TimelineConnector from '@material-ui/lab/TimelineConnector';
-import TimelineContent from '@material-ui/lab/TimelineContent';
-import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
-import TimelineDot from '@material-ui/lab/TimelineDot';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-
-const useStyles = makeStyles((theme) => ({
-    paper: {
-        padding: '6px 16px',
-    },
-    secondaryTail: {
-        backgroundColor: theme.palette.secondary.main,
-    },
-}));
-
+import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import frame from "../../assets/Frame25.png";
 export default function CustomizedTimeline() {
-    const theme = React.useMemo(
-        () =>
-            createMuiTheme({
-                palette: {
-                    type: 'dark',
-                },
-            }),
-        []
-    );
+  // const backgroundStyle = {
+  //   backgroundImage: `url(${frame})`,
+  //   // backgroundRepeat: "repeat",
+  //   backgroundSize: "cover",
+  //   backgroundPosition: "center",
+  //   color: "white",
+  //   height: "20vh", // Adjust the height as needed
+  //   display: "flex",
+  //   justifyContent: "center",
+  //   alignItems: "center",
+  //   fontSize: "4rem", // Adjust the font size as needed
+  // };
+  return (
+    <>
+      <div
+        className="bg-violet-300  text-violet-900 rounded-lg  m-24 text-center font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"
+        // style={backgroundStyle}
+      >
+        Timeline for HackO’Fest
+      </div>
 
-    const classes = useStyles();
-
-    return (
-        <ThemeProvider theme={theme} className ="p-10 m-10">
-            <Timeline align="alternate" className="p-10  mt-24">
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                        <Typography variant="body2" color="textSecondary">
-                            01 April 2021
-                        </Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                Registrations Start
-                            </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineOppositeContent>
-                        <Typography variant="body2" color="textSecondary">
-                            15 April 2021
-                        </Typography>
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                Registration Ends
-                            </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                Team Confirmation Rollout & RSVP Start
-                            </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                RVSP End
-                            </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineSeparator>
-                        <TimelineDot />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper}>
-                            <Typography variant="h6" component="h1">
-                                Check In & Hackathon Starts
-                            </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-            </Timeline>
-        </ThemeProvider>
-    );
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2011 - present"
+        >
+          <h3 className="vertical-timeline-element-title">Creative Director</h3>
+          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <p>
+            Creative Direction, User Experience, Visual Design, Project
+            Management, Team Leading
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          icon={
+            <div className="flex justify-center items-center w-full h-full">
+              <img
+                src=""
+                alt="logo"
+                className="w-[60%] h-[60%] object-contain"
+              />
+            </div>
+          }
+          date="2011 - present"
+        >
+          <h3 className="vertical-timeline-element-title">Creative Director</h3>
+          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <p>
+            Creative Direction, User Experience, Visual Design, Project
+            Management, Team Leading
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2011 - present"
+        >
+          <h3 className="vertical-timeline-element-title">Creative Director</h3>
+          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <p>
+            Creative Direction, User Experience, Visual Design, Project
+            Management, Team Leading
+          </p>
+        </VerticalTimelineElement>
+        {/* Other timeline elements */}
+      </VerticalTimeline>
+    </>
+  );
 }

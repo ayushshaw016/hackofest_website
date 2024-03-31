@@ -56,33 +56,33 @@ const Navbar = () => {
                 isOpen ? "block" : "hidden"
               }`}
             >
-              <ul className="flex p-5 flex-col items-center">
-                <li className=" hover:bg-white text-white  px-3 font-bold ">
+              <ul className="flex p-4 flex-col items-center">
+                <li className="p-1 hover:bg-white text-white  px-3 font-bold ">
                   <Link to="/about" onClick={toggleMenu}>
                     About US
                   </Link>
                 </li>
-                <li className=" hover:bg-white text-white  px-3 font-bold ">
+                <li className="p-1 hover:bg-white text-white  px-3 font-bold ">
                   <Link to="/timeline" onClick={toggleMenu}>
                     TimeLine
                   </Link>
                 </li>
-                <li className=" hover:bg-white text-white   px-3 font-bold ">
+                <li className="p-1 hover:bg-white text-white   px-3 font-bold ">
                   <Link to="/rules" onClick={toggleMenu}>
                     Rules
                   </Link>
                 </li>
-                <li className=" hover:bg-white text-white   px-3 font-bold ">
+                <li className="p-1 hover:bg-white text-white   px-3 font-bold ">
                   <Link to="/sponsors" onClick={toggleMenu}>
                     Sponsors
                   </Link>
                 </li>
-                <li className="  hover:bg-white text-white px-3 font-bold ">
+                <li className="p-1  hover:bg-white text-white px-3 font-bold ">
                   <Link to="/prize" onClick={toggleMenu}>
                     Prize
                   </Link>
                 </li>
-                <li className=" hover:bg-white text-white  px-3 font-bold ">
+                <li className="p-1 hover:bg-white text-white  px-3 font-bold ">
                   <Link to="/team" onClick={toggleMenu}>
                     Team
                   </Link>
@@ -91,22 +91,22 @@ const Navbar = () => {
             </div>
             <div className="hidden sm:block">
               <ul className="flex items-center gap-6 text-xl font-bold py-4">
-                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
+                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
                   <Link to="/about">About US</Link>
                 </li>
-                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
+                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
                   <Link to="/timeline">TimeLine</Link>
                 </li>
-                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
+                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
                   <Link to="/rules">Rules</Link>
                 </li>
-                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
+                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
                   <Link to="/sponsors">Sponsors</Link>
                 </li>
-                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
+                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
                   <Link to="/prize">Prize</Link>
                 </li>
-                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold hover:text-2xl">
+                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
                   <Link to="/team">Team</Link>
                 </li>
               </ul>
