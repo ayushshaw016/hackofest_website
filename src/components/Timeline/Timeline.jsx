@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import frame from "../../assets/Frame25.png";
+import icon from "../../assets/icon.png";
 export default function CustomizedTimeline() {
   // const backgroundStyle = {
   //   backgroundImage: `url(${frame})`,
@@ -32,6 +32,7 @@ export default function CustomizedTimeline() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          src={icon}
           date="2011 - present"
         >
           <h3 className="vertical-timeline-element-title">Creative Director</h3>
@@ -48,7 +49,7 @@ export default function CustomizedTimeline() {
           icon={
             <div className="flex justify-center items-center w-full h-full">
               <img
-                src=""
+                src={icon}
                 alt="logo"
                 className="w-[60%] h-[60%] object-contain"
               />
@@ -67,6 +68,7 @@ export default function CustomizedTimeline() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          src={icon}
           date="2011 - present"
         >
           <h3 className="vertical-timeline-element-title">Creative Director</h3>
