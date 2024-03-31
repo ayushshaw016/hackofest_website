@@ -50,11 +50,11 @@ const App = () => {
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<ContactUS />} />
             <Route path="/prize" element={<Prizes />} />
-            <Route path="/timeline" element = {<Timeline />} />
+            <Route path="/timeline" element={<Timeline />} />
             {/* <Route path="/themes" element = {<Timeline />} /> */}
           </Routes>
           {/* Add Footer or Footer5 here based on your requirements */}
-          {/* <Footer/> */}
+          <Footer5 />
         </div>
       </div>
     </Router>
