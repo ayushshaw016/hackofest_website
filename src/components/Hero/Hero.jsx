@@ -93,7 +93,6 @@ const Hero = () => {
         </div>
         <div
           className="mr-10 mt-10 md:-mt-6"
-          style={backgroundStyle}
           data-aos="fade-left"
           data-aos-delay="500"
         >
