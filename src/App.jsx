@@ -19,13 +19,22 @@ import Timeline from "./components/Timeline/Timeline.jsx";
 import Main from "./components/Main/Mainpage.jsx";
 import Prizes from "./components/Prizes/Prizes.jsx";
 import Themes from "./components/Theme/Themes.jsx";
+import { useState } from "react";
+import Loading from "./components/loading.jsx";
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
   React.useEffect(() => {
     AOS.init({
       duration: 1200,
       easing: "ease-in-out",
     });
   });
+  React.useEffect(() => {
+    // Simulate loading for 2 seconds
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
 
   return (
     <Router>

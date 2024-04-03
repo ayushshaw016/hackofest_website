@@ -4,14 +4,17 @@ import HeroCard from "../HeroCard/HeroCard";
 import Rapidscat from "../Rapidscat/Rapidscat";
 import Satelite from "../Satelite/Satelite";
 import ContactUS from "../Contact US/ContactUS";
-const  Main = () =>{
-    return(
+import Crousel from "../reusable/Crousel";
+const Main = () => {
+  return (
     <>
-<Hero/>
-<HeroCard/>
-<Rapidscat/>
-<Satelite/>
-<ContactUS/>
-    </>)
+      <Hero />
+      <HeroCard />
+      <Crousel />
+      <Rapidscat />
+      <Satelite />
+      <ContactUS />
+    </>
+  );
 };
 export default Main;

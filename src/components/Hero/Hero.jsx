@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import MountainPng from "../../assets/moon-surface-hd.png";
-
+import herobg from "../../assets/herobg.png";
 const Hero = () => {
+  const backgroundStyle = {
+    backgroundImage: `url(${herobg})`,
+  };
   const targetDate = new Date("April 6, 2024 14:00:00").getTime();
 
   const calculateTimeLeft = () => {
@@ -13,7 +16,7 @@ const Hero = () => {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
         hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
         minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60)
+        seconds: Math.floor((difference / 1000) % 60),
       };
     }
 
@@ -41,10 +44,17 @@ const Hero = () => {
     localStorage.setItem("targetTime", JSON.stringify(timeLeft));
   }, [timeLeft]);
 
-  const timerComponents = Object.keys(timeLeft).map(interval => (
-    <div key={interval} className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+  const timerComponents = Object.keys(timeLeft).map((interval) => (
+    <div
+      key={interval}
+      className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content"
+    >
       <span className="countdown font-mono text-5xl">
-        <span style={{ "--value": timeLeft[interval].toString().padStart(2, '0') }}>{timeLeft[interval]}</span>
+        <span
+          style={{ "--value": timeLeft[interval].toString().padStart(2, "0") }}
+        >
+          {timeLeft[interval]}
+        </span>
       </span>
       {interval}
     </div>
@@ -54,11 +64,13 @@ const Hero = () => {
     <div className=" bg-black/20 h-full">
       <div className="h-full flex flex-col justify-center items-center p-4 md:flex-row mt-0">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="text-white space-y-4 lg:pr-36 xs:w-full" data-aos="fade-right" data-aos-delay="300">
-            <h1  className="text-6xl font-bold font-serif">
-              HackO'Fest
-            </h1>
-            <p >
+          <div
+            className="text-white space-y-4 lg:pr-36 xs:w-full"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
+            <h1 className="text-6xl font-bold font-serif">HackO'Fest</h1>
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea
               dolorem eius accusamus beatae. Nulla quis beatae quo, possimus
               tempora similique dignissimos repellat aperiam veniam culpa
@@ -79,9 +91,14 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="mr-10 mt-10 md:-mt-6"   data-aos="fade-left"
-                data-aos-delay="500">
-          <p className="text-white text-center ffont-serif  font-bold text-4xl ">Count Down</p>
+        <div
+          className="mr-10 mt-10 md:-mt-6"
+          data-aos="fade-left"
+          data-aos-delay="500"
+        >
+          <p className="text-white text-center ffont-serif  font-bold text-4xl ">
+            Count Down
+          </p>
           <span className="text-white">
             <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
               {timerComponents}
