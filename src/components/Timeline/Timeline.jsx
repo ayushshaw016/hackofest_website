@@ -24,7 +24,7 @@ export default function CustomizedTimeline() {
         className="bg-violet-300  text-violet-900 rounded-lg  m-24 text-center font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"
         // style={backgroundStyle}
       >
-        Timeline for HackO’Fest
+        Timeline
       </div>
 
       <VerticalTimeline>

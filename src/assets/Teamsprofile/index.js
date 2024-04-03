@@ -14,6 +14,7 @@ import Arunsingh from "../../assets/teamsprofile/Arun.jpeg";
 import Aryanranjan from "../../assets/teamsprofile/Aryan Ranjan.jpg";
 import Ashishyadav from "../../assets/teamsprofile/ASHISH YADAV.jpg";
 import Ayushshaw from "../../assets/teamsprofile/AYUSH SHAW.jpg";
+import Deepaksingh from "../../assets/teamsprofile/DeepakSingh.jpg"
 import Gauharmaqubool from "../../assets/teamsprofile/GAUHAR_MAQUBOOL.jpg";
 import Harshvardhan from "../../assets/teamsprofile/HARSH VARDHAN.jpg";
 import Harshvardhandansena from "../../assets/teamsprofile/HARSHVARDHAN DANSENA.jpg";
@@ -59,6 +60,7 @@ export {
   Aryanranjan,
   Ashishyadav,
   Ayushshaw,
+  Deepaksingh,
   Gauharmaqubool,
   Harshvardhan,
   Harshvardhandansena,

@@ -18,6 +18,7 @@ import bgVideo from "./assets/newbg.mp4";
 import Timeline from "./components/Timeline/Timeline.jsx";
 import Main from "./components/Main/Mainpage.jsx";
 import Prizes from "./components/Prizes/Prizes.jsx";
+import Themes from "./components/Theme/Themes.jsx";
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -46,6 +47,7 @@ const App = () => {
             <Route path="/satelite" element={<Satelite />} />
             <Route path="/about" element={<AboutUS />} />
             <Route path="/rules" element={<Rules />} />
+            <Route path="/themes" element={<Themes />} />
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<ContactUS />} />

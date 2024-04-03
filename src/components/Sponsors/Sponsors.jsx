@@ -37,14 +37,6 @@ const Sponsors = () => {
           <div className="my-4 mx-2">
           <img src={Incubationcenter} className="w-72 h-auto "/>
           </div>
-          <div className="my-4 mx-2">
-          <img src={polygon} className="w-96 h-auto "/>
-          </div>
-          <div className="my-4 mx-2">
-          <img src={ETHindia} className="w-72 h-auto "/>
-          </div>
-          
-          
           </div>
 
           <h2 className="text-5xl text-center" data-aos="fade-up" data-aos-delay="300">Gold Sponsor</h2>
@@ -58,6 +50,8 @@ const Sponsors = () => {
           </div>
           </div>
 
+
+
           <h2 className="text-5xl text-center" data-aos="fade-up" data-aos-delay="300">Silver Sponsor</h2>
           <br/>
           <div className="justify-around flex flex-col md:flex-row ml-8 mb-6" data-aos="fade-right" data-aos-delay="300">
@@ -69,6 +63,19 @@ const Sponsors = () => {
           </div>
           <div className="my-4 mx-2">
           <img src={oreilly} className="w-72 h-auto"/>
+          </div>
+          </div>
+
+
+
+          <h2 className="text-5xl text-center" data-aos="fade-up" data-aos-delay="300">Associate Sponsor</h2>
+          <br/>
+          <div className="justify-around flex flex-col md:flex-row ml-8 mb-6" data-aos="fade-right" data-aos-delay="300">
+          <div className="my-4 mx-2">
+          <img src={polygon} className="w-96 h-auto"/>
+          </div>
+          <div className="my-4 mx-2">
+          <img src={ETHindia} className="w-72 h-auto"/>
           </div>
           </div>
 

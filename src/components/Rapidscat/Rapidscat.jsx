@@ -1,5 +1,6 @@
 import React from "react";
 import sateliteImg from "../../assets/softwaredomain.jpg";
+import { Link } from "react-router-dom";
 
 const Rapidscat = () => {
   return (
@@ -36,13 +37,14 @@ const Rapidscat = () => {
               Business and Economic Growth 
               </p>
 
-              <button
+              <Link
                 data-aos="fade-up"
                 data-aos-delay="900"
                 className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
+                to={`/themes?software=true`}
               >
                 View All
-              </button>
+              </Link>
             </div>
           </div>
         </div>

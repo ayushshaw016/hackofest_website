@@ -1,5 +1,6 @@
 import React from "react";
 import satelitImg from "../../assets/hardwaredomain.jpg";
+import { Link } from "react-router-dom";
 
 const Satelite = () => {
   return (
@@ -29,13 +30,14 @@ const Satelite = () => {
               Home Automation
               </p>
 
-              <button
+              <Link
                 data-aos="fade-up"
                 data-aos-delay="900"
                 className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
+                to={`/themes?software=false`}
               >
                 View All
-              </button>
+              </Link>
             </div>
             <div data-aos="zoom-in">
               <img
