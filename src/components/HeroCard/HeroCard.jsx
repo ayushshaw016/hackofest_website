@@ -5,28 +5,26 @@ import { FaShuttleSpace, FaSpaceAwesome } from "react-icons/fa6";
 
 const ServiceData = [
   {
-    title: "HST",
-    content: "300-1500km",
+    title: "",
+    content: "",
     description:
-      "Used for astronomical observations, capturing stunning images of the universe.",
-    icon: <FaReact className="text-7xl" />,
-    aosDelay: "300",
+      "Embark on a nationwide innovation journey! Our national-level hackathon HackO'Fest invites tech enthusiasts to collaborate, ideate, and create solutions that shape the future",
+    aosDelay: "",
   },
   {
-    title: "ISS",
-    content: "500-1500km",
+    title: "",
+    content: "",
     description:
-      ", it's a habitable artificial satellite orbiting Earth and serves as a space environment research laboratory",
-    icon: <FaShuttleSpace className="text-7xl" />,
-    aosDelay: "500",
+      "HackO'Fest offers participants the chance to compete for a total prize pool of $22,020, driving motivation and excellence in technology-driven solutions.",
+    
+    aosDelay: "",
   },
   {
-    title: "GPS",
-    content: "300-1500km",
+    title: "",
+    content: "",
     description:
-      "Part of the Global Positioning System (GPS) used for navigation.",
-    icon: <FaSpaceAwesome className="text-7xl" />,
-    aosDelay: "700",
+      "Join our National level Hackathon where software and hardware experts unite to innovate, compete, and win prizes across diverse domains.",
+    aosDelay: "",
   },
 ];
 const HeroCard = () => {
@@ -44,10 +42,7 @@ const HeroCard = () => {
                       data-aos-delay={data.aosDelay}
                       className="min-h-[180px] flex flex-col justify-center items-center rounded-xl gap-2 bg-sky-900/60 backdrop-blur-sm  text-white text-center text-2xl py-8 px-3 w-full lg:w-[300px] mx-auto mt-8"
                     >
-                      {data.icon}
-                      <h1>{data.title}</h1>
-                      <p>{data.content}</p>
-                      <p className="text-sm">{data.description}</p>
+                      <p className="text-lg ">{data.description}</p>
                     </div>
                   );
                 })}

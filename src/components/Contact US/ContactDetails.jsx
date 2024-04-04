@@ -8,13 +8,8 @@ const contacts = [
 	},
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: 'hackofest2024@gmail.com',
 		icon: <FiMail />,
-	},
-	{
-		id: 3,
-		name: '555 8888 888',
-		icon: <FiPhone />,
 	},
 ];
 

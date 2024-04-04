@@ -7,16 +7,7 @@ const themeContent = {
     image: firstprize,
     title: 'Theme 1',
     description: 'The description of the first theme!',
-    points: [{
-        title: 'Subpoint 1',
-        value: 'Description 1',
-    }, {
-        title: 'Subpoint 2',
-        value: 'Description 2',
-    }, {
-        title: 'Subpoint 3',
-        value: 'Description 3',
-    }]
+    point: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nam maiores doloribus architecto cum asperiores, fugiat tempora laudantium quae itaque! Debitis velit, sit reprehenderit accusantium non voluptatibus corporis soluta impedit.'
 }
 
 function useQuery() {
@@ -51,15 +42,15 @@ const Themes = () => {
             <div onClick={() => setValue(1)} className={`hover:cursor-pointer ${value === 1 ? 'decoration-slate-700 underline' : 'no-underline'}`}>Hardware</div>
         </div>
 
-        {value === 0 && <div className='my-6 w-full flex items-center flex-wrap'>
-            {softwares.map((idx) => <HorizontalCards imageSrc={themeContent.image} infoList={themeContent.points} subtitle={themeContent.description} title={themeContent.title} key={idx}></HorizontalCards>)}
+        {value === 0 && <div className='my-6 w-full flex items-center flex-wrap justify-around'>
+            {softwares.map((idx) => <HorizontalCards imageSrc={themeContent.image} subtitle={themeContent.description} title={themeContent.title} key={idx} theme = {true} point = {themeContent.point}></HorizontalCards>)}
         </div>}
 
-        {value === 1 && <div className='my-6 w-full flex items-center flex-wrap'>
-            {hardwares.map((idx) => <HorizontalCards imageSrc={themeContent.image} infoList={themeContent.points} subtitle={themeContent.description} title={themeContent.title} key={idx}></HorizontalCards>)}
+        {value === 1 && <div className='my-6 w-full flex items-center flex-wrap justify-around'>
+            {hardwares.map((idx) => <HorizontalCards imageSrc={themeContent.image} subtitle={themeContent.description} title={themeContent.title} key={idx} theme = {true} point = {themeContent.point}></HorizontalCards>)}
         </div>}
     </div>
     
-}
+}   
 
 export default Themes

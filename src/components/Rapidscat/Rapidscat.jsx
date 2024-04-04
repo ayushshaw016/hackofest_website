@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Rapidscat = () => {
   return (
     <>
-      <section className="bg-primary text-white pb-12">
+      <section className="bg-primary text-white pb-12 -mt-2">
         <div className="container ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             <div data-aos="zoom-in">

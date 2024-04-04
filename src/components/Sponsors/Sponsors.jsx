@@ -10,6 +10,7 @@ import perfectionias from "../../assets/Sponsors/perfectionias.png"
 import polygon from "../../assets/Sponsors/Ploygon.png"
 import wolfarm from "../../assets/Sponsors/wolfram.png"
 import herobg from "../../assets/herobg.png"
+import fitnessgarage from "../../assets/Sponsors/fitnessgarage.jpg"
 const Sponsors = () => {
   const backgroundStyle = {
     backgroundImage: `url(${herobg})`,
@@ -100,6 +101,13 @@ const Sponsors = () => {
           <div className="justify-around flex flex-col md:flex-row ml-8" data-aos="fade-left" data-aos-delay="300">
           <div className="my-4 mx-2 pb-16">
           <img src={givemycertificate} className="w-96  h-16"/>
+          </div>
+          </div>
+          <br/>
+          <h2 className="text-5xl text-center" data-aos="fade-up" data-aos-delay="300">Fitness  Sponsor</h2>
+          <div className="justify-around flex flex-col md:flex-row ml-8" data-aos="fade-left" data-aos-delay="300">
+          <div className="my-4 mx-2 pb-16">
+          <img src={fitnessgarage} className="w-64  h-auto"/>
           </div>
           </div>
         </div>

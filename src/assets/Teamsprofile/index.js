@@ -45,7 +45,7 @@ import Suyashkrishna from "../../assets/teamsprofile/SUYASH KRISHNA.jpg";
 import Tusharpradhan from "../../assets/teamsprofile/TUSHAR PRADHAN.jpg";
 import Vanikumari from "../../assets/teamsprofile/VANI KUMARI.jpg";
 import Viverkumar from "../../assets/teamsprofile/VIVEK KUMAR JHA.jpg";
-
+import img from "../../assets/teamsprofile/img.png"
 export {
   Abhinandanraj,
   Abhinavchandra,
@@ -90,4 +90,5 @@ export {
   Tusharpradhan,
   Vanikumari,
   Viverkumar,
+  img
 };

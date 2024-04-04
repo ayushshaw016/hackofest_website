@@ -20,12 +20,7 @@ const AboutUS = () => {
             style={backgroundStyle}
           >
             <img src={thinindia} className="h-1/4 w-1/4 text-white" />
-            Parrots—along with ravens, crows, jays, and magpies—are among the
-            most intelligent birds, and the ability of some species to imitate
-            human speech enhances their popularity as pets. They form the most
-            variably sized bird order in terms of length; many are vividly
-            coloured and some, multi-coloured. Most parrots exhibit little or no
-            sexual dimorphism in the visual spectrum.
+            With a mission to empower young minds with a platform to ideate and innovate, Think India is a society that fuels the passion for technology and creativity. Comprising a diverse pool of students driven by a common zeal for problem-solving, the chapter embodies collaboration, creativity, and commitment. Through workshops, seminars, and competitions, Think India encourages students to think beyond boundaries and harness their potential to drive meaningful change in society.
           </div>
         </div>
         <br />
@@ -41,12 +36,7 @@ const AboutUS = () => {
           >
             <img src={ieee} className="h-1/4 w-1/2 text-white mx-16" />
             <br />
-            Parrots—along with ravens, crows, jays, and magpies—are among the
-            most intelligent birds, and the ability of some species to imitate
-            human speech enhances their popularity as pets. They form the most
-            variably sized bird order in terms of length; many are vividly
-            coloured and some, multi-coloured. Most parrots exhibit little or no
-            sexual dimorphism in the visual spectrum.
+            At the forefront of technological advancement, the IEEE Student Branch NIT-P is  a club that serves for innovation and excellence. Committed to advancing technology for the benefit of humanity, the club serves as a catalyst for transformative technical ideas. With a rich legacy of fostering technological advancements and pushing the boundaries of innovation, IEEE Student Branch NIT-P empowers students to explore emerging technologies, develop critical skills, and make a positive impact on the world. 
           </div>
         </div>
       </div>

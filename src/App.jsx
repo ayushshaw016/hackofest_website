@@ -49,7 +49,9 @@ const App = () => {
             <source src={bgVideo} type="video/mp4" className="opacity-10" />
           </video>
           <Navbar />
-          <Routes>
+          <div className="min-h-screen">
+          <Routes className="">
+            
             <Route path="/" element={<Main />} />
             <Route path="/hero-card" element={<HeroCard />} />
             <Route path="/rapidscat" element={<Rapidscat />} />
@@ -62,10 +64,12 @@ const App = () => {
             <Route path="/contact" element={<ContactUS />} />
             <Route path="/prize" element={<Prizes />} />
             <Route path="/timeline" element={<Timeline />} />
-            {/* <Route path="/themes" element = {<Timeline />} /> */}
-          </Routes>
+          {/* <Route path="/themes" element = {<Timeline />} /> */}
+          
+        </Routes>
+          </div>
           {/* Add Footer or Footer5 here based on your requirements */}
-          {/* <Footer5 /> */}
+          <Footer />
         </div>
       </div>
     </Router>

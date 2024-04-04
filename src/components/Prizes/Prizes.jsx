@@ -4,15 +4,55 @@ import secondprize from "../../assets/Prizes/Second_prize.png"
 import thirdprize from "../../assets/Prizes/Third_prize.png"
 import medal from "../../assets/Prizes/Medal.png"
 import Typography from '@mui/material/Typography';
+import herobg from "../../assets/herobg.png";
 
 const prizeContent = {
     image: firstprize,
-    title: '1st Prize',
+    title: 'Champion $740',
     description: 'The undisputed winner of the hackathon!',
     cash: 25000,
-    prizeList: ['Prize1', 'Prize2', 'Prize3', 'Prize4']
+    prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
+}
+const prizeContent2 = {
+    image: secondprize,
+    title: '1st Runner up $620',
+    description: 'The undisputed runner up of the hackathon!',
+    cash: 15000,
+    prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
+}
+const prizeContent3 = {
+    image: thirdprize,
+    title: '2nd Runner Up $560',
+    description: 'The undisputed 2nd-runner up of the hackathon!',
+    cash: 10000,
+    prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
 }
 
+const horiPrize = {...prizeContent}
+horiPrize.title = 'Horiprize'
+
+const prizecontents = [prizeContent,prizeContent2, prizeContent3]
+const girlsteam = {
+    image: medal,
+    title: 'OverAll Girls Best Team',
+    description: 'The undisputed Overall Girls Best Team of the hackathon!',
+    cash: 10000,
+    prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
+}
+
+const firstyear =  {
+    image: medal,
+    title: 'First year Best Team',
+    description: 'The 1st Year Best Team of the hackathon!',
+    cash: 10000,
+    prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
+}
+const horizontalContents = [girlsteam, firstyear];
 const prizes = [0,1,2];
 
 
@@ -30,10 +70,10 @@ const PrizeList = ({prizes}) => {
         {prizes.map((prize) => {
             return <ListItem>
         <ListItemAvatar>
-          <Avatar>
-          </Avatar>
+          {/* <Avatar>
+          </Avatar> */}
         </ListItemAvatar>
-        <ListItemText primary={prize} secondary={`Worth ${500}`} primaryTypographyProps={{variant: 'h6'}} secondaryTypographyProps={{color: 'white'}} />
+        <ListItemText primary={prize.itemname} secondary={`${prize.itemvalue}`} primaryTypographyProps={{variant: 'h6'}} secondaryTypographyProps={{color: 'white'}} />
       </ListItem>
       
         })}
@@ -45,37 +85,44 @@ const PrizeList = ({prizes}) => {
   );
 }
 
-export const HorizontalCards = ({title, subtitle, imageSrc, infoList,tableHeaderTitle1, tableHeaderTitle2}) => {
-    return <div className="w-full md:w-1/2 p-4">
-        <div className="w-full bg-slate-700 bg-opacity-40 rounded-lg border-2 pb-3 mb-3 border-white flex flex-col">
-            <div className="w-full bg-slate-800 bg-opacity-70 flex px-3 items-center text-white rounded-t-lg justify-between text-center">
-                <h1 className="text-center">{title}</h1>
-            </div>
-            <div className="p-4 flex flex-col gap-y-3 text-white items-center">
+export const HorizontalCards = ({title, subtitle, imageSrc, infoList,tableHeaderTitle1, tableHeaderTitle2, point = '', theme = false}) => {
+    const backgroundStyle = {
+        backgroundImage: `url(${herobg})`,
+      };
+    return <div className={`${!theme ? 'w-full md:w-1/2 p-4': 'w-1/2 md:w-1/4 px-3'}`} >
+        <div className="w-full bg-slate-700 bg-opacity-40 rounded-lg border-2 pb-3 mb-3 border-white flex flex-col" style={backgroundStyle}>
+            {/* <div className="w-full bg-slate-800 bg-opacity-70 flex px-3 items-center text-white rounded-t-lg justify-between text-center">
+                <h1 className="text-2xl font-bold">{title}</h1>
+            </div> */}
+            {!theme && <div className="p-4 flex flex-col gap-y-3 text-white items-center">
                 <img src={imageSrc}  />
                 <p>{subtitle}</p>
-            </div>
+            </div>}
 
-            <div className="flex flex-col gap-y-2 items-center w-full">
+            <div className="flex flex-col gap-y-2 items-center w-full" style={backgroundStyle}>
 
-                {infoList.map((item) => {
+                {!theme && infoList.map((item) => {
                     return <div className="flex items-center justify-between px-3 py-2 w-full bg-slate-900 bg-opacity-70">
-                        <div className="border-b-2 border-white p-3 text-white w-1/3 text-center">{item.title}</div>
+                        {/* <div className="border-b-2 border-white p-3 text-white w-1/3 text-center">{item.title}</div> */}
                         <div className="border-b-2 border-white p-3 text-white w-1/3 text-center">{item.value}</div>
                     </div>
                 })}
+                {/* {theme && <p className="mt-5 text-center">{point}</p>} */}
             </div>
         </div>
     </div>
 }
 
 const PrizeCard = ({prize, idx}) => {
+    const backgroundStyle = {
+        backgroundImage: `url(${herobg})`,
+      };
     const [expanded,setExpanded] = useState(false);
 
     const mt = idx*12;
 
-    return <div className={`flex flex-col hover:scale-110 transition-all p-4 max-h-screen overflow-x-auto rounded-lg shadow-lg bg-slate-700 bg-opacity-40 text-white w-full md:w-1/3 mx-2 mb-3 border-2 border-white items-center lg:w-1/4 mt-${mt}`}>
-        <div className="text-center my-2">
+    return <div className={`flex flex-col hover:scale-110 transition-all p-4 max-h-screen overflow-x-auto rounded-lg shadow-lg bg-slate-700 bg-opacity-40 text-white w-full md:w-1/3 mx-2 mb-3 border-2 border-white items-center lg:w-1/4 mt-${mt}`} style={backgroundStyle}>
+        <div className="text-center my-2 style={backgroundStyle}">
             <Typography variant="h5" className="text-xl font-bold">{prize.title}</Typography>
             <Typography variant="subtitle-2">{prize.description}</Typography>
         </div>
@@ -103,9 +150,12 @@ const PrizeCard = ({prize, idx}) => {
 }
 
 const Prizes = () =>{
+        const backgroundStyle = {
+          backgroundImage: `url(${herobg})`,
+        };
     return(
         <>
-        <div className="xs> mt-24 md:mx-6">
+        <div className="xs> mt-24 md:mx-6" >
             <h2 className="mt-8 text-center font-bold text-6xl md:mt-12 text-white mb-4">PRIZES</h2>
             <h2 className="text-center"></h2>
                 {/* <div className="flex flex-col md:flex-row text-white">
@@ -130,8 +180,8 @@ const Prizes = () =>{
                     <hr/>
                 </div> */}
 
-                <div className="flex flex-wrap items-center justify-around">
-                    {prizes.map((idx) => <PrizeCard prize={prizeContent} key={idx} idx={idx} />)}
+                <div className="flex flex-wrap items-center justify-around" >
+                    {prizecontents.map((prize,idx) => <PrizeCard prize={prize} key={idx} idx={idx}  />)}
                 </div>
                 
 
@@ -148,7 +198,7 @@ const Prizes = () =>{
                     </div>
                 </div> */}
                 <div className="flex items-center md:flex-row flex-col">
-                    {prizes.map((prize) => <HorizontalCards title={prizeContent.title} subtitle={prizeContent.description} infoList={prizeContent.prizeList.map((subprize, idx) => ({title: `Subpize ${idx+1}`, value: subprize}))} imageSrc={prizeContent.image}  />)}
+                    {horizontalContents.map((prize,idx) => <HorizontalCards title={prize.title} subtitle={prize.description} infoList={prize.prizeList.map((subprize, idx) => ({title: subprize.itemname, value: subprize.itemvalue}))} imageSrc={prize.image}  />)}
                 </div>
 
         </div>

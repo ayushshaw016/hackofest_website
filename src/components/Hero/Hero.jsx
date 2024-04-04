@@ -71,10 +71,7 @@ const Hero = () => {
           >
             <h1 className="text-6xl font-bold font-serif">HackO'Fest</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea
-              dolorem eius accusamus beatae. Nulla quis beatae quo, possimus
-              tempora similique dignissimos repellat aperiam veniam culpa
-              consequatur repudiandae asperiores saepe.
+            Hack-o-Fest, a dynamic national-level hackathon poised to ignite innovation and collaboration. Presented to you by a powerful collaboration between two phenomenal clubs, Think India Student Chapter and IEEE, Hack-o-Fest brings to you an electrifying 36-hour journey of creativity, problem-solving, and entrepreneurial spirit.
             </p>
             <div>
               <a
