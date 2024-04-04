@@ -91,13 +91,13 @@ export const HorizontalCards = ({title, subtitle, imageSrc, infoList,tableHeader
       };
     return <div className={`${!theme ? 'w-full md:w-1/2 p-4': 'w-1/2 md:w-1/4 px-3'}`} >
         <div className="w-full bg-slate-700 bg-opacity-40 rounded-lg border-2 pb-3 mb-3 border-white flex flex-col" style={backgroundStyle}>
-            {/* <div className="w-full bg-slate-800 bg-opacity-70 flex px-3 items-center text-white rounded-t-lg justify-between text-center">
+            <div className="w-full bg-slate-800 bg-opacity-70 flex px-3 items-center text-white rounded-t-lg justify-between text-center">
                 <h1 className="text-2xl font-bold">{title}</h1>
-            </div> */}
+            </div>
             {!theme && <div className="p-4 flex flex-col gap-y-3 text-white items-center">
                 <img src={imageSrc}  />
-                <p>{subtitle}</p>
             </div>}
+            {theme && <p className="py-2 px-6">{point}</p>}
 
             <div className="flex flex-col gap-y-2 items-center w-full" style={backgroundStyle}>
 
