@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 import MountainPng from "../../assets/moon-surface-hd.png";
 import herobg from "../../assets/herobg.png";
+import { Link } from "react-router-dom";
+
 const Hero = () => {
+  
+
   const backgroundStyle = {
     backgroundImage: `url(${herobg})`,
   };
@@ -74,34 +78,41 @@ const Hero = () => {
             Hack-o-Fest, a dynamic national-level hackathon poised to ignite innovation and collaboration. Presented to you by a powerful collaboration between two phenomenal clubs, Think India Student Chapter and IEEE, Hack-o-Fest brings to you an electrifying 36-hour journey of creativity, problem-solving, and entrepreneurial spirit.
             </p>
             <div>
-              <a
-                // data-aos="fade-up"
-                // data-aos-delay="500"
+            
+            
+          
 
-                className="bg-indigo-500 text-white hover:bg-red-600 rounded-lg duration-200 text-2xl px-6 py-2 mt-4 font-bold"
-                href="https://hackofestnitp.devfolio.co/"
+
+            </div>
+
+            
+          </div>
+
+        </div>
+            
+          <div
+            className="mr-10 mt-10 md:-mt-6 flex flex-col items-center"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
+            <p className="text-white text-center ffont-serif  font-bold text-4xl ">
+              Count Down
+            </p>
+            <span className="text-white">
+              <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
+                {timerComponents}
+              </div>
+            </span>
+
+            <Link
+                to="https://docs.google.com/forms/d/1SOkYuuowRzXcAcS4NiKCfkOUtQkaneMjZygETOj_A7Y/edit?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="bg-indigo-500 text-white hover:bg-red-600 rounded-lg text-2xl px-6 py-2 mt-4 font-bold z-50"
               >
                 Register!
-              </a>
-            </div>
+              </Link>
           </div>
-        </div>
-        <div
-          className="mr-10 mt-10 md:-mt-6"
-          data-aos="fade-left"
-          data-aos-delay="500"
-        >
-          <p className="text-white text-center ffont-serif  font-bold text-4xl ">
-            Count Down
-          </p>
-          <span className="text-white">
-            <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
-              {timerComponents}
-            </div>
-          </span>
-        </div>
       </div>
       <img
         src={MountainPng}

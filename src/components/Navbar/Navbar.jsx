@@ -107,13 +107,16 @@ const Navbar = () => {
                   <Link to="/prize">Prize</Link>
                 </li>
                 <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
+                  <Link to="/themes">Themes</Link>
+                </li>
+                <li className="hover:text-violet-600 hover:bg-white text-white hover:rounded-3xl px-3 font-bold ">
                   <Link to="/team">Team</Link>
                 </li>
               </ul>
             </div>
             <div className="float-right">
               <a
-                href="https://discord.gg/QmNc3R6Z"
+                href="https://discord.gg/SMRCb8vf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

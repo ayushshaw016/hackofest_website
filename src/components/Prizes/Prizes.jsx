@@ -12,7 +12,8 @@ const prizeContent = {
     description: 'The undisputed winner of the hackathon!',
     cash: 25000,
     prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
-    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}],
+    total: 100000
 }
 const prizeContent2 = {
     image: secondprize,
@@ -20,7 +21,8 @@ const prizeContent2 = {
     description: 'The undisputed runner up of the hackathon!',
     cash: 15000,
     prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
-    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}],
+    total: 50000
 }
 const prizeContent3 = {
     image: thirdprize,
@@ -28,7 +30,8 @@ const prizeContent3 = {
     description: 'The undisputed 2nd-runner up of the hackathon!',
     cash: 10000,
     prizeList: [{itemname:'', itemvalue: 'Access to Wolfram for thirty days.'},{itemname:'', itemvalue:'One includes both Desktop and Cloud access, full access to the Wolfram Language and Knowledgebase, FreeCDF Deployment, 5000 Wolfram'}, {itemname:'', itemvalue: 'One year of Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro worth $375.00.'},
-    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}]
+    {itemname:'', itemvalue: 'Echo3D 1-month FREE access to our Pro tier'}],
+    total: 30000
 }
 
 const horiPrize = {...prizeContent}
@@ -64,7 +67,7 @@ import Avatar from '@mui/material/Avatar';
 import { ListItemButton } from "@mui/material";
 
 
-const PrizeList = ({prizes}) => {
+const PrizeList = ({prizes, total}) => {
   return (
     <List sx={{ width: '100%' }}>
         {prizes.map((prize) => {
@@ -78,7 +81,7 @@ const PrizeList = ({prizes}) => {
       
         })}
         <ListItemButton selected={true} sx={{textAlign: 'center', fontWeight: 700}}>
-        <ListItemText primary="Spam" primaryTypographyProps={{variant:'body1'}} />
+        <ListItemText primary={`Total Prize Worth: ${total} Rs.`} primaryTypographyProps={{variant:'body1'}} />
 
       </ListItemButton>
     </List>
@@ -102,7 +105,7 @@ export const HorizontalCards = ({title, subtitle, imageSrc, infoList,tableHeader
             <div className="flex flex-col gap-y-2 items-center w-full" style={backgroundStyle}>
 
                 {!theme && infoList.map((item) => {
-                    return <div className="flex items-center justify-between px-3 py-2 w-full bg-slate-900 bg-opacity-70">
+                    return <div className="flex items-center justify-center px-3 py-2 w-full text-center bg-slate-900 bg-opacity-70">
                         {/* <div className="border-b-2 border-white p-3 text-white w-1/3 text-center">{item.title}</div> */}
                         <div className="border-b-2 border-white p-3 text-white w-1/3 text-center">{item.value}</div>
                     </div>
@@ -143,7 +146,7 @@ const PrizeCard = ({prize, idx}) => {
                 })}
             </div> */}
 
-            <PrizeList prizes={prize.prizeList} />
+            <PrizeList prizes={prize.prizeList} total = {prize.total} />
         </div>
     </div>
 

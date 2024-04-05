@@ -74,7 +74,8 @@ const Rules = () => {
             Each member of a team must join the HackO’Fest
             <a
               className="underline text-[#cb5bcb] font-bold"
-              href="https://discord.gg/QmNc3R6Z"
+              target="blank"
+              href="https://discord.gg/SMRCb8vf"
             >
               &nbsp;Discord&nbsp;
             </a>
