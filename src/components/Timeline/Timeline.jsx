@@ -21,7 +21,7 @@ export default function CustomizedTimeline() {
   return (
     <>
       <div
-        className="bg-violet-300  text-violet-900 rounded-lg  m-24 text-center font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] underline font-serif "
+        className="bg-[#906eff]  text-white rounded-lg  m-24 text-center  md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] underline font-serif opacity-60"
         // style={backgroundStyle}
       >
         TIMELINE

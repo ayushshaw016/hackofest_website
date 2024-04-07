@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import firstprize from "../../assets/Prizes/First_prize.png"
-import secondprize from "../../assets/Prizes/Second_prize.png"
-import thirdprize from "../../assets/Prizes/Third_prize.png"
+import firstprize from "../../assets/Prizes/Firstprize.jpeg"
+import secondprize from "../../assets/Prizes/secondprize.jpeg"
+import thirdprize from "../../assets/Prizes/third.png"
 import medal from "../../assets/Prizes/Medal.png"
 import Typography from '@mui/material/Typography';
 import herobg from "../../assets/herobg.png";
@@ -66,7 +66,6 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import { ListItemButton } from "@mui/material";
 
-
 const PrizeList = ({prizes, total}) => {
   return (
     <List sx={{ width: '100%' }}>
@@ -88,18 +87,25 @@ const PrizeList = ({prizes, total}) => {
   );
 }
 
-export const HorizontalCards = ({title, subtitle, imageSrc, infoList,tableHeaderTitle1, tableHeaderTitle2, point = '', theme = false}) => {
+export const HorizontalCards = ({title, subtitle, imageSrc,cash, infoList,tableHeaderTitle1, tableHeaderTitle2, point = '', theme = false}) => {
     const backgroundStyle = {
         backgroundImage: `url(${herobg})`,
       };
-    return <div className={`${!theme ? 'w-full md:w-1/2 p-4': 'w-1/2 md:w-1/4 px-3'}`} >
-        <div className="w-full bg-slate-700 bg-opacity-40 rounded-lg border-2 pb-3 mb-3 border-white flex flex-col" style={backgroundStyle}>
+    return <div className={`${!theme ? 'w-full md:w-1/2 p-4 justify-between': 'w-full md:w-1/3 self-stretch px-3 mb-4 flex'}`} >
+        <div className="w-full self-stretch bg-slate-700 bg-opacity-40 rounded-lg border-2 pb-3 mb-3 border-white flex flex-col" style={backgroundStyle}>
             <div className="w-full bg-slate-800 bg-opacity-70 flex px-3 items-center text-white rounded-t-lg justify-between text-center">
-                <h1 className="text-2xl font-bold">{title}</h1>
+                <h1 className="text-2xl font-bold mx-auto my-3">{title}</h1>
             </div>
             {!theme && <div className="p-4 flex flex-col gap-y-3 text-white items-center">
                 <img src={imageSrc}  />
+
+                {/* cash prize */}
+                
+                <h1 className="text-2xl font-bold mx-auto my-3 underline">{`Total Prize Worth: ${cash} Rs.`}</h1>
+                
             </div>}
+
+            {theme && <div className="flex items-center w-full justify-center"><img src={imageSrc} className="w-40 h-40" /> </div>}
             {theme && <p className="py-2 px-6">{point}</p>}
 
             <div className="flex flex-col gap-y-2 items-center w-full" style={backgroundStyle}>
@@ -107,7 +113,7 @@ export const HorizontalCards = ({title, subtitle, imageSrc, infoList,tableHeader
                 {!theme && infoList.map((item) => {
                     return <div className="flex items-center justify-center px-3 py-2 w-full text-center bg-slate-900 bg-opacity-70">
                         {/* <div className="border-b-2 border-white p-3 text-white w-1/3 text-center">{item.title}</div> */}
-                        <div className="border-b-2 border-white p-3 text-white w-1/3 text-center">{item.value}</div>
+                        <div className="border-b-2 border-white p-3 text-white w-4/5 text-center ">{item.value}</div>
                     </div>
                 })}
                 {/* {theme && <p className="mt-5 text-center">{point}</p>} */}
@@ -201,7 +207,7 @@ const Prizes = () =>{
                     </div>
                 </div> */}
                 <div className="flex items-center md:flex-row flex-col">
-                    {horizontalContents.map((prize,idx) => <HorizontalCards title={prize.title} subtitle={prize.description} infoList={prize.prizeList.map((subprize, idx) => ({title: subprize.itemname, value: subprize.itemvalue}))} imageSrc={prize.image}  />)}
+                    {horizontalContents.map((prize,idx) => <HorizontalCards title={prize.title} subtitle={prize.description} infoList={prize.prizeList.map((subprize, idx) => ({title: subprize.itemname, value: subprize.itemvalue}))} imageSrc={prize.image} cash = {prize.cash}  />)}
                 </div>
 
         </div>

@@ -39,7 +39,7 @@ const App = () => {
   return (
     <Router>
       <div className="">
-        <div className="h-screen">
+        <div className="">
           <video
             autoPlay
             loop
