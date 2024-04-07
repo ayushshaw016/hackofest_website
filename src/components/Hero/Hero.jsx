@@ -102,11 +102,7 @@ Registration Ended!
                 
           </div>
       </div>
-      <img
-        src={MountainPng}
-        alt=""
-        className="absolute right-0 bottom-10 w-full brightness-50 z-10 mb-20"
-      />
+      
     </div>
   );
 };

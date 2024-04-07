@@ -3,7 +3,7 @@ import logo from "../../assets/hackofest.png"
 import discord from "../../assets/discord.jpg"
 const Footer = () => {
   return (
-    <div className="bg-[#ad55f5] text-white -mt-1 p-4 lg:p-0 lg:px-8 bg-opacity-40">
+    <div className="bg-[#d5a6fc] text-white -mt-1 p-4 lg:p-0 lg:px-8 bg-opacity-40">
     <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
       <img src={logo} className="lg:w-1/6 lg:h-1/6  w-1/2 h-1/4 mx-4 my-2 lg:my-0 lg:mx-0" alt="Logo"/>
       <a href="https://drive.google.com/file/d/1Pee-ww9L1cuQPQl4huAjCNo-Q7w-yNZd/view?usp=sharing" target="_blank"  className="text-center text-2xl font-bold lg:mt-0 inline-block py-4">
