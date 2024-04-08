@@ -3,8 +3,8 @@ import ContactForm from "./ContactForm";
 
 function ContactUS() {
   return (
-    <div>
-      <div className="flex flex-col lg:flex-row mx-3 p-3 mt-10 h-full bg-black  z-10  opacity-95 w-full -ml-2 -mr-6">
+    <div className="">
+      <div className="flex flex-col lg:flex-row  mt-10 h-full bg-black  z-10  opacity-95 w-full ">
         <ContactForm />
         <ContactDetails />
       </div>

@@ -5,19 +5,19 @@ import "slick-carousel/slick/slick-theme.css";
 import {ArchyGupta, Mahimahans, MansaiTakalkar, Mohtashamraza, PalakAwasthi, SaikiranSwargam, AbdulBasitQureshi,AkankshaSingh, PurshottomBhangui, JeevanPrakashSingh, KshitijJha, RahatRezaSulemani, PalakTanna} from "../../assets/SpeaekrsandJudges/index"
 const Carousel = () => {
   const teamLeads = [
-    { name: "Archy Gupta", position: "SDE-2", Company:"Adobe", imgSrc: ArchyGupta },
-    { name: "Mahima Hans", position: "SDE-3", Company:"Mastercard",  imgSrc: Mahimahans},
-    { name: "Mansai Takalkar", position: "SDE-3", Company:"F5",  imgSrc: MansaiTakalkar},
-    { name: "Mohtasham Raza", position: "SDE-2", Company:"Google",  imgSrc: Mohtashamraza },
+    { name: "Archy Gupta", position: "SDE-2", Company:"Google", imgSrc: ArchyGupta },
+    { name: "Mahima Hans", position: "SDE-2", Company:"Adobe",  imgSrc: Mahimahans},
+    { name: "Mansai Takalkar", position: "SDE-3", Company:"Matercard",  imgSrc: MansaiTakalkar},
+    { name: "Mohtasham Raza", position: "SDE-2", Company:"Microsoft",  imgSrc: Mohtashamraza },
     { name: "Palak Awasthi",position: "SDE-2", Company:"Paypal", imgSrc: PalakAwasthi},
-    { name: "Saikiran Swargam",position: "SDE-2", Company:"Microsoft", imgSrc: SaikiranSwargam},
-    { name: "Saikiran Swargam",position: "SDE", Company:"Microsoft", imgSrc: AbdulBasitQureshi},
-    { name: "Saikiran Swargam",position: "Senior SWE", Company:"Commonwealth Bank of Australia", imgSrc: AkankshaSingh},
-    { name: "Saikiran Swargam",position: "Senior SWE", Company:"Computer Vision Software", imgSrc: PurshottomBhangui},
-    { name: "Saikiran Swargam",position: "Senior Machine Architect", Company:"Quantiphi", imgSrc: RahatRezaSulemani},
-    { name: "Saikiran Swargam",position: "Data Scientist", Company:"Deloitte", imgSrc: JeevanPrakashSingh},
-    { name: "Saikiran Swargam",position: "SDE", Company:"Friendly Investemnts", imgSrc: KshitijJha},
-    { name: "Saikiran Swargam",position: "Entrepreneur", Company:"GroomYourGram", imgSrc: PalakTanna},
+    { name: "Saikiran Swargam",position: "SDE-3", Company:"F5", imgSrc: SaikiranSwargam},
+    { name: "Abdul Basit Qureshi",position: "SDE", Company:"Microsoft", imgSrc: AbdulBasitQureshi},
+    { name: "Akansha Singh",position: "Senior SWE", Company:"Commonwealth Bank of Australia", imgSrc: AkankshaSingh},
+    { name: "Purshottom Bhangui",position: "Senior SWE", Company:"Computer Vision Software", imgSrc: PurshottomBhangui},
+    { name: "Jeevan Prakash Singh",position: "Senior Machine Architect", Company:"Quantiphi", imgSrc: RahatRezaSulemani},
+    { name: "Rahat Rezi Sulemani",position: "Data Scientist", Company:"Deloitte", imgSrc: JeevanPrakashSingh},
+    { name: "Kshitiz Jha",position: "SDE", Company:"Friendly Investemnts", imgSrc: KshitijJha},
+    { name: "Palak Tanna",position: "Entrepreneur", Company:"GroomYourGram", imgSrc: PalakTanna},
 
   ];
 

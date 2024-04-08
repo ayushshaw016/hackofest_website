@@ -544,19 +544,7 @@ const members = [{
     linkedin: "https://www.linkedin.com/in/anjali-rani-03975928b/",
     discord: "",
   },
-  {
-    name: "Monu Kumar",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "monuk.ug22.ee@nitp.ac.in",
-    image: Monukumar,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/monu-kumar-61b776284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: "",
-  },
+  
   {
     name: "Subodh Kumar",
     role: "",
@@ -571,32 +559,6 @@ const members = [{
     discord: "",
   },
   {
-    name: "Abhinav Chandra",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "abhinavc.ug22.ec@nitp.ac.in",
-    image: Abhinavchandra,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://drive.google.com/open?id=1XripsiUyQKsz49g89HyooGktn7XFRFX4",
-    discord: "",
-  },
-  {
-    name: "Ritika Ranjan Treti",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "ritikat.ug22.ee@nitp.ac.in",
-    image: Ritikaranjan,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://drive.google.com/open?id=1sp3Ea55RIuecYEx4AH9Qsf5AVaZ7eaYF",
-    discord: "",
-  },
-  {
     name: "Aryan Ranjan",
     role: "",
     about: "Passionate about coding and creating meaningful software.",
@@ -608,19 +570,7 @@ const members = [{
     linkedin: "https://www.linkedin.com/in/aryanranjan2005",
     discord: "",
   },
-  {
-    name: "Adarsh Mishra",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "adarshm.ug22.me@nitp.ac.in",
-    image: AdarshMishra,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/adarsh-mishra-aaa510249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: "",
-  },
+
   {
     name: "Sagar Kumar",
     role: "",

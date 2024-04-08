@@ -73,9 +73,9 @@ const Hero = () => {
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            <h1 className="text-6xl font-bold font-serif">HackO'Fest</h1>
+            <h1 className="text-6xl font-bold font-serif pl-6">HackO'Fest</h1>
             <p>
-            Hack-o-Fest, a dynamic national-level hackathon poised to ignite innovation and collaboration. Presented to you by a powerful collaboration between two phenomenal clubs, Think India Student Chapter and IEEE, Hack-o-Fest brings to you an electrifying 36-hour journey of creativity, problem-solving, and entrepreneurial spirit.
+            Hack-O-Fest, a dynamic national-level hackathon poised to ignite innovation and collaboration. Presented to you by a powerful collaboration between two phenomenal clubs, Think India Student Chapter and IEEE, Hack-o-Fest brings to you an electrifying 30-hour journey of creativity, problem-solving, and entrepreneurial spirit.
             </p>
             <div>
             

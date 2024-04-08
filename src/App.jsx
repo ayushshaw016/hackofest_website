@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="">
+      <div className="overflow-x-hidden">
         <div className="">
           <video
             autoPlay
