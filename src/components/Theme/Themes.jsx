@@ -2,119 +2,122 @@ import React, { useEffect, useState } from 'react'
 import { HorizontalCards } from '../Prizes/Prizes';
 import firstprize from "../../assets/Prizes/First_prize.png"
 import { useLocation, useSearchParams } from 'react-router-dom';
+import {bussiness, sustain, communitybuilding, cyber, law, medicalfacility, openinnovation, qualityeducation, spaceandaerospace} from "../../assets/Themes/Software"
+import {aihardware, drone, greentechnology, healtcareinnovation, homeautomation, iot, robotics, securityandpriv, wearables} from "../../assets/Themes/Hardware";
 
 const qualityeduaction = {
-    image: firstprize,
+    image: qualityeducation,
     title: 'qualityeduaction',
     description: 'QUALITY EDUCATION',
     point: 'Quality education empowers minds, transcending mere instruction to foster critical thinking and innovation. It equips individuals with skills to navigate a dynamic world and realize their fullest potential.'
 }
 
 const cybersecurity = {
-    image: firstprize,
+    image: cyber,
     title: 'cybersecurity',
     description: 'CYBER SECURITY ',
     point: "Certainly! Here's a paragraph incorporating the theme 'Empowering Cyber Defenses: Innovations for Secure Digital Futures' along with some additional content"
 }
 
 const health = {
-    image: firstprize,
+    image: medicalfacility,
     title: 'health',
     description: 'HEALTH CARE AND MEDICAL FACILITY',
     point: "Revolutionizing Healthcare: Harnessing Technology for Enhanced Medical Facilities and Service Innovative Solutions for Accessible and Efficient Healthcare Delivery"
 }
 const business = {
-    image: firstprize,
+    image: bussiness,
     title: 'business',
     description: 'BUSINESS AND ECONOMIC GROWTH',
     point: "Fostering Prosperity: Unleashing Entrepreneurial Potential for Sustainable Business Growth. Driving Economic Resilience: Leveraging Technology and Innovation to Fuel Business Expansion."
 }
-const sustainbility = {
-    image: firstprize,
-    title: 'sustainbility',
+const sustainibility= {
+    image: sustain,
+    title: 'SUSTAINIBILITY',
     description: 'BUSINESS AND ECONOMIC GROWTH',
     point: "Towards a Greener Future: Innovations for Sustainable Development and Environmental Preservation.Harmonizing Progress and Planet: Solutions for Sustainable Growth and Eco-friendly Practices"
 }
 const laws = {
-    image: firstprize,
+    image: law,
     title: 'laws',
     description: 'LAWS AND JUSTICE',
     point: "Justice Through Innovation: Advancing Legal Systems for Fairness and Equality.Empowering Access to Justice: Leveraging Technology for Legal Equality and Accountability.Innovating Law: Bridging Gaps and Enhancing Fairness in Legal Systems"
 }
-const community = {
-    image: firstprize,
-    title: 'community',
-    description: 'COMMUNITY BUILIDING',
-    point: "Building Together: Empowering Communities Through Innovation and Collaboration.Strengthening Bonds: Harnessing Technology for Inclusive Community Development.From Local to Global: Innovating Solutions for Sustainable Community Growth and Connectivity"
-}
+
 
 const space = {
-    image: firstprize,
+    image: spaceandaerospace,
     title: 'space',
     description: 'SPACE AND AEROSPACE TECHNOLOGY',
     point: "Exploring the Cosmos: Advancing Space and Aerospace Technology for Humanity's Future.Innovations Beyond Earth: Pushing Boundaries in Space Exploration and Aerospace Engineering"
 }
-const openinnovation = {
-    image: firstprize,
+const open = {
+    image: openinnovation,
     title: 'openinnovation',
     description: 'OPEN INNOVATION',
     point: "Join us in a digital revolution, where minds converge to code solutions that shape a brighter future for all. Together, let's harness the power of innovation to address pressing issues and ignite positive change across the globe"
 }
 
-const iot = {
-    image: firstprize,
-    title: 'iot',
+const comm = {
+    image: communitybuilding,
+    title: "COMMUNINTY",
+    description: 'OPEN INNOVATION',
+    point: "Community building is a field of practices directed toward the creation or enhancement of community among individuals within a regional area (such as a neighborhood) or with a common need or interest."
+}
+const iott = {
+    image: iot,
+    title: 'IOT',
     description: 'Internet OF Things',
     point: "Innovating the Internet of Things: Transforming Data into Action for Smarter, More Connected Environments. Exploring the Frontier of IoT: Bridging Physical and Digital Worlds for Enhanced Efficiency and Experience. "
 }
-const werables = {
-    image: firstprize,
-    title: 'werables',
+const werabless = {
+    image: wearables,
+    title: 'WEerables',
     description: 'Wearables Technology',
     point: "Wearable Technology: Enhancing Lives, Redefining Possibilities, and Personalizing the Future. From Fitness to Fashion: Exploring the Boundaries of Wearable Technology for Seamless Integration into Daily Life."
 }
-const robotics = {
-    image: firstprize,
-    title: 'robotics',
+const roboticss = {
+    image: robotics,
+    title: 'roboticsss',
     description: 'Robotics',
     point: "Wearable Technology: Enhancing Lives, Redefining Possibilities, and Personalizing the Future. From Fitness to Fashion: Exploring the Boundaries of Wearable Technology for Seamless Integration into Daily Life."
 }
 const Homeautomation = {
-    image: firstprize,
+    image: homeautomation,
     title: 'Homeautomation',
     description: 'Home Automation',
     point: "Home Automation: Transforming Living Spaces into Intelligent, Adaptive Environments for Modern Lifestyles.Welcome to the Future: Harnessing Home Automation to Simplify Tasks, Enhance Security, and Conserve Energy."
 }
 const dronetech = {
-    image: firstprize,
+    image: drone,
     title: 'dronetech',
     description: 'Drone Technology',
     point: "Taking Flight: Revolutionizing Industries and Services Through Drone Technology Innovation. Above and Beyond: Exploring the Limitless Possibilities of Drone Technology in Modern Society."
 }
 
 const healthcare = {
-    image: firstprize,
+    image: healtcareinnovation,
     title: 'healthcare',
     description: 'Healthcare Innovation',
     point: "Healthcare Innovation: Transforming Patient Care, Advancing Medical Breakthroughs, and Improving Quality of Life.Pioneering Progress: Harnessing Technology and Collaboration to Drive Healthcare Innovation Forward"
 }
 
-const greentecch = {
-    image: firstprize,
+const greentecchhh = {
+    image: greentechnology,
     title: 'greentecch',
     description: 'Green Technology',
     point: "Green Technology: Sustaining the Planet, Powering Progress, and Pioneering a Sustainable Future. Driving Towards Sustainability: Innovations in Green Technology for Environmental Preservation and Economic Growth."
 }
 
-const aihardware = {
-    image: firstprize,
+const aihardwaree = {
+    image: aihardware,
     title: 'aihardware',
     description: 'AI Hardware',
     point: "AI Hardware: Powering the Future of Artificial Intelligence with Cutting-Edge Technologies.From Silicon to Cognition: Advancing AI Capabilities Through Innovative Hardware Solutions."
 }
 
 const security = {
-    image: firstprize,
+    image: securityandpriv,
     title: 'security',
     description: 'Security and Privacy',
     point: "Security and Privacy: Safeguarding Data, Protecting Identities, and Preserving Trust in the Digital Age. Balancing Security with Privacy: Innovations to Ensure Data Protection and Personal Freedoms"
@@ -130,8 +133,8 @@ function useQuery() {
 const Themes = () => {
 
     const [value, setValue] = React.useState(0);
-    const softwares = [qualityeduaction, cybersecurity, health, business, sustainbility, laws, community, space, openinnovation]
-    const hardwares = [iot, werables, robotics, Homeautomation, dronetech, healthcare, greentecch, aihardware, security]
+    const softwares = [qualityeduaction, cybersecurity, health, business, sustainibility, laws, comm, space, open]
+    const hardwares = [iott, werabless, roboticss, Homeautomation, dronetech, healthcare, greentecchhh, aihardwaree, security]
  
     const qry = useQuery()
     

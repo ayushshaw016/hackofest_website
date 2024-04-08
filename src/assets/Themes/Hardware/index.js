@@ -1,0 +1,10 @@
+import aihardware from "../Hardware/aihardware.jpeg"
+import drone from "../Hardware/drone.jpeg"
+import greentechnology from "../Hardware/greentechnology.jpeg"
+import healtcareinnovation from "../Hardware/healthcareinnovatiion.jpeg"
+import homeautomation from "../Hardware/homeautomation.jpeg"
+import iot from "../Hardware/iot.png"
+import robotics from "../Hardware/robotics.png"
+import securityandpriv from "../Hardware/securityandprivacy.jpeg"
+import wearables from "../Hardware/wearables.jpeg"
+export {aihardware, drone, greentechnology, healtcareinnovation, homeautomation, iot, robotics, securityandpriv, wearables};

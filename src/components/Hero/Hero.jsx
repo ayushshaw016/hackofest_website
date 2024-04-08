@@ -69,7 +69,7 @@ const Hero = () => {
       <div className="h-full flex flex-col justify-center items-center p-4 md:flex-row mt-48">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div
-            className="text-white space-y-4 lg:pr-36 xs:w-full"
+            className="text-white space-y-4 lg:pr-24 xs:w-full"
             data-aos="fade-right"
             data-aos-delay="300"
           >
@@ -91,34 +91,18 @@ const Hero = () => {
         </div>
             
           <div
-            className="mr-10 mt-10 md:-mt-6 flex flex-col items-center"
+            className="mr-16 mt-10 md:-mt-6 flex flex-col items-center"
             data-aos="fade-left"
             data-aos-delay="500"
           >
-            <p className="text-white text-center ffont-serif  font-bold text-4xl ">
-              Count Down
+            
+            <p className="text-white text-3xl font-bold">
+Registration Ended!
             </p>
-            <span className="text-white">
-              <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
-                {timerComponents}
-              </div>
-            </span>
-
-            <Link
-                to="https://docs.google.com/forms/d/1SOkYuuowRzXcAcS4NiKCfkOUtQkaneMjZygETOj_A7Y/edit?usp=drivesdk"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-indigo-500 text-white hover:bg-red-600 rounded-lg text-2xl px-6 py-2 mt-4 font-bold z-50"
-              >
-                Register!
-              </Link>
+                
           </div>
       </div>
-      <img
-        src={MountainPng}
-        alt=""
-        className="absolute right-0 bottom-10 w-full brightness-50 z-10 -mb-24"
-      />
+      
     </div>
   );
 };

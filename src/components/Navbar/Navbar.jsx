@@ -87,6 +87,11 @@ const Navbar = () => {
                     Team
                   </Link>
                 </li>
+                <li className="p-1 hover:bg-white text-white  px-3 font-bold ">
+                  <Link to="/themes" onClick={toggleMenu}>
+                    Themes
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="hidden sm:block">
