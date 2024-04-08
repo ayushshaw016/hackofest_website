@@ -1,5 +1,6 @@
 import {
   Abhinandanraj,
+  ashutoshsingh,
   Abhinavchandra,
   AdarshMishra,
   Adityasrivastav,
@@ -14,6 +15,9 @@ import {
   Ayushshaw,
   Deepaksingh,
   Gauharmaqubool,
+  Amansinha,
+  Amitbaghel,
+  Anjalikumari,
   Harshvardhan,
   Harshvardhandansena,
   Kirtanpatidar,
@@ -77,7 +81,7 @@ const Leads = [
     role: "Event Co-Lead",
     about: "",
     email: "anishk.me@nitp.ac.in",
-    image: img,
+    image: Anishkumar,
     github: "",
     twitter: "",
     instagram: "",
@@ -89,12 +93,12 @@ const Leads = [
     name: "Ashutosh Singh",
     role: "Chief Cordinator",
     about: "",
-    email: "",
-    image: img,
-    github: "",
+    email: "ashutoshs.ug21.cs@nitp.ac.in",
+    image: ashutoshsingh,
+    github: "https://github.com/Ashutosh-1302",
     twitter: "",
     instagram: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/ashutosh-singh-328053229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     discord: "",
   },
   {
@@ -226,7 +230,7 @@ const Leads = [
     role: "PR Lead",
     about: "Passionate about coding and creating meaningful software.",
     email: "amans.ug21.me@nitp.ac.in",
-    image: img,
+    image: Amansinha,
     github: "",
     twitter: "",
     instagram: "",
@@ -373,20 +377,7 @@ const Leads = [
   
 ];
 
-const members = [
-  {
-    name: "Saloni Kushwaha",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "asalonik.ug22.ec@nitp.ac.in",
-    image: Salonikushwaha,
-    github: "https://github.com/Saloni5099",
-    twitter: "",
-    instagram: "",
-    linkedin: "http://www.linkedin.com/in/saloni-kushwaha-a092a5257",
-    discord: "",
-  },
-  {
+const members = [{
     name: "Vani Kumari",
     role: "",
     about: "Passionate about coding and creating meaningful software.",
@@ -398,7 +389,7 @@ const members = [
     linkedin: "https://www.linkedin.com/in/vani-singh-45645b245",
     discord: "",
   },
-  ,
+
   {
     name: "Shanvi Dixit",
     role: "",
@@ -412,7 +403,19 @@ const members = [
       "https://www.linkedin.com/in/shanvi-dixit-42ba75283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     discord: "",
   },
-  ,
+  
+  {
+    name: "Rahul Kumar",
+    role: "",
+    about: "Passionate about coding and creating meaningful software.",
+    email: "rahulk.dd22.ec@nitp.ac.in",
+    image: Rahulkumar,
+    github: "",
+    twitter: "",
+    instagram: "",
+    linkedin: "https://in.linkedin.com/in/rahul-kumar-690370202p",
+    discord: "",
+  },
   {
     name: "Muskan",
     role: "",
@@ -426,7 +429,6 @@ const members = [
       "https://www.linkedin.com/in/muskan-sharma-99125b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     discord: "",
   },
-  ,
   {
     name: "Arpita Diwedi",
     role: "",
@@ -438,6 +440,32 @@ const members = [
     instagram: "",
     linkedin:
       "https://www.linkedin.com/in/arpita-dwivedi-6bb002271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    discord: "",
+  },
+  ,
+  {
+    name: "Aditya Srivastav",
+    role: "",
+    about: "Passionate about coding and creating meaningful software.",
+    email: "adityas2.ug22.ec@nitp.ac.in",
+    image: Adityasrivastav,
+    github: "",
+    twitter: "",
+    instagram: "",
+    linkedin: "https://www.linkedin.com/in/adityasri10938/",
+    discord: "",
+  },
+  {
+    name: "Amit Baghel",
+    role: "",
+    about: "Passionate about coding and creating meaningful software.",
+    email: "amitb.ug22.ec@nitp.ac.in",
+    image: Amitbaghel,
+    github: "",
+    twitter: "",
+    instagram: "",
+    linkedin:
+      "https://www.linkedin.com/in/amit-baghel-40810b273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     discord: "",
   },
   {
@@ -470,11 +498,24 @@ const members = [
     role: "",
     about: "Passionate about coding and creating meaningful software.",
     email: "anjalikan.ug22.cs@nitp.ac.in",
-    image: img,
+    image: Anjalikumari,
     github: "",
     twitter: "",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/anjali-kumari-12aa07257",
+    discord: "",
+  },
+  {
+    name: "kushagra",
+    role: "",
+    about: "Passionate about coding and creating meaningful software.",
+    email: "kushagra.ug22.cs@nitp.ac.in",
+    image: Kushagra,
+    github: "",
+    twitter: "",
+    instagram: "",
+    linkedin:
+      "https://www.linkedin.com/in/kushagra-singh-888996258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     discord: "",
   },
   {
@@ -527,18 +568,6 @@ const members = [
     instagram: "",
     linkedin:
       "https://www.linkedin.com/in/subodh-kumar-1582ba224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: "",
-  },
-  {
-    name: "Rahul Kumar",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "rahulk.dd22.ec@nitp.ac.in",
-    image: Rahulkumar,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin: "https://in.linkedin.com/in/rahul-kumar-690370202p",
     discord: "",
   },
   {
@@ -604,20 +633,8 @@ const members = [
     linkedin: "https://www.linkedin.com/in/sagar-kumar-239a31237",
     discord: "",
   },
-  {
-    name: "kushagra",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "kushagra.ug22.cs@nitp.ac.in",
-    image: Kushagra,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/kushagra-singh-888996258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: "",
-  },
-  ,
+  
+
   {
     name: "Aman Anand",
     role: "",
@@ -667,32 +684,7 @@ const members = [
     instagram: "",
     linkedin: "https://www.linkedin.com/in/piyushkumarprasad/",
     discord: "",
-  },
-  {
-    name: "Aditya Srivastav",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "adityas2.ug22.ec@nitp.ac.in",
-    image: Adityasrivastav,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin: "https://www.linkedin.com/in/adityasri10938/",
-    discord: "",
-  },
-  {
-    name: "Amit Baghel",
-    role: "",
-    about: "Passionate about coding and creating meaningful software.",
-    email: "amitb.ug22.ec@nitp.ac.in",
-    image: img,
-    github: "",
-    twitter: "",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/amit-baghel-40810b273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    discord: "",
-  },
+  }
   // Add more team members as needed
 ];
 

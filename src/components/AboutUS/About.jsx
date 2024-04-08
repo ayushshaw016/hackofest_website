@@ -8,7 +8,7 @@ const AboutUS = () => {
   };
   return (
     <>
-      <div className="flex  flex-col  md:flex-row mx-auto">
+      <div className="flex  flex-col  md:flex-row mx-auto mb-4">
         <div
           className="mx-4 md:px-32 text-white  mt-20 text-2xl font-bold font-serif md:w-1/2"
           // style={backgroundStyle}

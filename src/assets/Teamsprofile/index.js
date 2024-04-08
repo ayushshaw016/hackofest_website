@@ -1,13 +1,14 @@
 import Abhinandanraj from "../../assets/teamsprofile/ABHINANDAN RAJ.JPG";
+import ashutoshsingh from "../../assets/teamsprofile/ashutoshsing.jpg"
 import Abhinavchandra from "../../assets/teamsprofile/Abhinav Chandra.JPG";
 import AdarshMishra from "../../assets/teamsprofile/ADARSH MISHRA.JPG";
 import Adityasrivastav from "../../assets/teamsprofile/ADITYA SRIVASTAV.png";
 import Ajitpandey from "../../assets/teamsprofile/AJIT PANDEY.jpg";
 import Akashsaurav from "../../assets/teamsprofile/AKASH SAURAV.jpg";
-// import Amansinha from "../../assets/teamsprofile/AMAN SINHA.jpeg"
-// import Amitbaghel from "../../assets/teamsprofile/AMIT BAGHEL.jpeg"
+import Amansinha from "../../assets/teamsprofile/AMAN SINHA.jpg"
+import Amitbaghel from "../../assets/teamsprofile/AMIT BAGHEL.jpg"
 import Anishkumar from "../../assets/teamsprofile/ANISH KUMAR.jpg";
-// import Anjalikumari from "../../assets/teamsprofile/ANJALI KUMARI.jpeg"
+import Anjalikumari from "../../assets/teamsprofile/ANJALI KUMARI.jpg"
 import Archikumari from "../../assets/teamsprofile/ARCHI KUMARI.jpg";
 import Arpitadwivedi from "../../assets/teamsprofile/ARPITA DWIVEDI.jpg";
 import Arunsingh from "../../assets/teamsprofile/Arun.jpeg";
@@ -48,6 +49,7 @@ import Viverkumar from "../../assets/teamsprofile/VIVEK KUMAR JHA.jpg";
 import img from "../../assets/teamsprofile/img.png"
 export {
   Abhinandanraj,
+  ashutoshsingh,
   Abhinavchandra,
   AdarshMishra,
   Adityasrivastav,
@@ -62,6 +64,9 @@ export {
   Ayushshaw,
   Deepaksingh,
   Gauharmaqubool,
+  Amansinha,
+  Amitbaghel,
+  Anjalikumari,
   Harshvardhan,
   Harshvardhandansena,
   Kirtanpatidar,

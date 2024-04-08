@@ -101,7 +101,7 @@ export const HorizontalCards = ({title, subtitle, imageSrc,cash, infoList,tableH
 
                 {/* cash prize */}
                 
-                <h1 className="text-2xl font-bold mx-auto my-3 underline">{`Total Prize Worth: ${cash} Rs.`}</h1>
+                <h1 className="text-2xl font-bold mx-auto my-3 underline">{`Cash Prize: ${cash} Rs.`}</h1>
                 
             </div>}
 
