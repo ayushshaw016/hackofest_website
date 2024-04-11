@@ -31,6 +31,7 @@ import Nishantkumar from "../../assets/teamsprofile/NISHIKANT KUMAR.jpg";
 import Piyushprasad from "../../assets/teamsprofile/Piyush Prasad.jpg";
 // import PrakharKrishna from "../../assets/teamsprofile/PRAKHAR KRISHNA.jpeg"
 import Priteshutkarsh from "../../assets/teamsprofile/PRITESH UTKARSH.jpg";
+import Manshi from "../../assets/teamsprofile/Manshi.jpg";
 import PriyaKanaujia from "../../assets/teamsprofile/PRIYA KANAUJIA.jpg";
 import Priyanshu from "../../assets/teamsprofile/Priyanshu Raj.jpg";
 import Rahulkumar from "../../assets/teamsprofile/RAHUL KUMAR.jpg";
@@ -94,6 +95,7 @@ export {
   Suyashkrishna,
   Tusharpradhan,
   Vanikumari,
+  Manshi,
   Viverkumar,
   img
 };

@@ -66,26 +66,19 @@ const Hero = () => {
 
   return (
     <div className=" h-full">
-      <div className="h-full flex flex-col justify-center items-center p-4 md:flex-row mt-48">
-        <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="h-full flex flex-col justify-center items-center p-4 md:flex-row mt-20 md:mt-48">
+        <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4 mx-auto">
           <div
-            className="text-white space-y-4 lg:pr-24 xs:w-full"
+            className="text-white space-y-4 lg:pr-24 xs:w-full "
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            <h1 className="text-6xl font-bold font-serif pl-6">HackO'Fest</h1>
+            <h1 className="text-3xl md:text-6xl font-bold font-serif">HackO'Fest</h1>
             <p>
             Hack-O-Fest, a dynamic national-level hackathon poised to ignite innovation and collaboration. Presented to you by a powerful collaboration between two phenomenal clubs, Think India Student Chapter and IEEE, Hack-o-Fest brings to you an electrifying 30-hour journey of creativity, problem-solving, and entrepreneurial spirit.
             </p>
             <div>
-            
-            
-          
-
-
             </div>
-
-            
           </div>
 
         </div>
@@ -96,7 +89,7 @@ const Hero = () => {
             data-aos-delay="500"
           >
             
-            <p className="text-white text-3xl font-bold">
+            <p className="text-white text-3xl font-bold ml-2 md:ml-0">
 Registration Ended!
             </p>
                 

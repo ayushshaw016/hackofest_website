@@ -45,6 +45,7 @@ import {
   Suyashkrishna,
   Tusharpradhan,
   Vanikumari,
+  Manshi,
   Viverkumar,
   img
 } from "../../assets/teamsprofile/index.js";
@@ -414,6 +415,19 @@ const members = [{
     twitter: "",
     instagram: "",
     linkedin: "https://in.linkedin.com/in/rahul-kumar-690370202p",
+    discord: "",
+  },
+  {
+    name: "Manshi Shrivastava",
+    role: "",
+    about: "Passionate about coding and creating meaningful software.",
+    email: " ",
+    image: Manshi,
+    github: "",
+    twitter: "",
+    instagram: "",
+    linkedin:
+      "https://www.linkedin.com/in/manshi-shrivastava-77299825b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     discord: "",
   },
   {

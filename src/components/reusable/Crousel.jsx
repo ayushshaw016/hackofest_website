@@ -14,8 +14,8 @@ const Carousel = () => {
     { name: "Abdul Basit Qureshi",position: "SDE", Company:"Microsoft", imgSrc: AbdulBasitQureshi},
     { name: "Akansha Singh",position: "Senior SWE", Company:"Commonwealth Bank of Australia", imgSrc: AkankshaSingh},
     { name: "Purshottom Bhangui",position: "Senior SWE", Company:"Computer Vision Software", imgSrc: PurshottomBhangui},
-    { name: "Jeevan Prakash Singh",position: "Senior Machine Architect", Company:"Quantiphi", imgSrc: RahatRezaSulemani},
-    { name: "Rahat Rezi Sulemani",position: "Data Scientist", Company:"Deloitte", imgSrc: JeevanPrakashSingh},
+    { name: "Jeevan Prakash Singh",position: "Senior Machine Architect", Company:"Quantiphi", imgSrc: JeevanPrakashSingh},
+    { name: "Rahat Rezi Sulemani",position: "Data Scientist", Company:"Deloitte", imgSrc: RahatRezaSulemani},
     { name: "Kshitiz Jha",position: "SDE", Company:"Friendly Investemnts", imgSrc: KshitijJha},
     { name: "Palak Tanna",position: "Entrepreneur", Company:"GroomYourGram", imgSrc: PalakTanna},
 
@@ -76,7 +76,7 @@ const Carousel = () => {
 
   return (
     <>
-      <h2 className="text-center text-4xl underline text-white bg-black">SPEAKERS AND JUDGES</h2>
+      <h2 className="text-center text-4xl underline text-white bg-black -mt-24">SPEAKERS AND JUDGES</h2>
     <Slider {...settings}>
       {currentLeads.map((lead, index) => (
         <div key={index} className="p-12 bg-black">
