@@ -14,7 +14,7 @@ const TeamCard = ({ member }) => {
   return (
     <div
       data-aos="zoom-in"
-      className="border w-[18.5rem] border-gray-800 bg-[#a59e9e4a] hover:bg-[#6461616c] p-5 rounded-3xl transition-all delay-[15ms] ease-in-out hover:border-gray-700 hover:scale-[101%] border-b-4 border-b-sky-700 hover:border-b-sky-500 mt-6 md:ml-12 -ml-16 mr-4"
+      className="border w-[18.5rem] border-gray-800 bg-[#a59e9e4a] hover:bg-[#6461616c] p-5  rounded-3xl transition-all delay-[15ms] ease-in-out hover:border-gray-700 hover:scale-[101%] border-b-4 border-b-sky-700 hover:border-b-sky-500 mt-6 md:ml-12 -ml-28"
       style={backgroundStyle}
       id="Team_main_1"
     >

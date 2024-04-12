@@ -1,7 +1,9 @@
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
 
+
 function ContactForm() {
+
 	return (
 		<div className="w-full lg:w-1/2 ">
 			<div className="leading-loose">
